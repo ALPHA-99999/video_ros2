@@ -58,6 +58,7 @@ private slots:
 
     void onReceived(const QMQTT::Message &message)
     {
+        
         if (message.topic() != topic_) {
             return;
         }
