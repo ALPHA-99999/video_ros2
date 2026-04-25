@@ -1,0 +1,197 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build: all",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && colcon build --merge-install --cmake-args -DCMAKE_BUILD_TYPE=Release",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build: interfaces",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && colcon build --merge-install --packages-select video_interfaces --cmake-args -DCMAKE_BUILD_TYPE=Release",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build: ingest",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && colcon build --merge-install --packages-select video_ingest --cmake-args -DCMAKE_BUILD_TYPE=Release",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build: mqtt bridge",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && colcon build --merge-install --packages-select mqtt_bridge --cmake-args -DCMAKE_BUILD_TYPE=Release",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build: custom byteblock",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && colcon build --merge-install --packages-select custom_byteblock --cmake-args -DCMAKE_BUILD_TYPE=Release",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build: decode",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && colcon build --merge-install --packages-select video_decode --cmake-args -DCMAKE_BUILD_TYPE=Release",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build: viewer",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && colcon build --merge-install --packages-select video_viewer_qt --cmake-args -DCMAKE_BUILD_TYPE=Release",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build: runtime",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && colcon build --merge-install --packages-select video_interfaces video_ingest mqtt_bridge custom_byteblock video_decode video_viewer_qt --cmake-args -DCMAKE_BUILD_TYPE=Release",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "run: udp ingest",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && source install/setup.bash && export LD_LIBRARY_PATH=\"${workspaceFolder}/install/lib:${LD_LIBRARY_PATH:-}\" && export CMAKE_PREFIX_PATH=\"${workspaceFolder}/install:${CMAKE_PREFIX_PATH:-}\" && export AMENT_PREFIX_PATH=\"${workspaceFolder}/install:${AMENT_PREFIX_PATH:-}\" && exec ${workspaceFolder}/install/lib/video_ingest/udp_ingest_node",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "run: mqtt bridge",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && source install/setup.bash && export LD_LIBRARY_PATH=\"${workspaceFolder}/install/lib:${LD_LIBRARY_PATH:-}\" && export CMAKE_PREFIX_PATH=\"${workspaceFolder}/install:${CMAKE_PREFIX_PATH:-}\" && export AMENT_PREFIX_PATH=\"${workspaceFolder}/install:${AMENT_PREFIX_PATH:-}\" && exec ${workspaceFolder}/install/lib/mqtt_bridge/mqtt_bridge_node",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "run: custom byteblock",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && source install/setup.bash && export LD_LIBRARY_PATH=\"${workspaceFolder}/install/lib:${LD_LIBRARY_PATH:-}\" && export CMAKE_PREFIX_PATH=\"${workspaceFolder}/install:${CMAKE_PREFIX_PATH:-}\" && export AMENT_PREFIX_PATH=\"${workspaceFolder}/install:${AMENT_PREFIX_PATH:-}\" && exec ${workspaceFolder}/install/lib/custom_byteblock/custom_byteblock_node",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "run: decoder",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && source install/setup.bash && export LD_LIBRARY_PATH=\"${workspaceFolder}/install/lib:${LD_LIBRARY_PATH:-}\" && export CMAKE_PREFIX_PATH=\"${workspaceFolder}/install:${CMAKE_PREFIX_PATH:-}\" && export AMENT_PREFIX_PATH=\"${workspaceFolder}/install:${AMENT_PREFIX_PATH:-}\" && exec ${workspaceFolder}/install/lib/video_decode/decoder_node",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "run: viewer",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && source install/setup.bash && export LD_LIBRARY_PATH=\"${workspaceFolder}/install/lib:${LD_LIBRARY_PATH:-}\" && export CMAKE_PREFIX_PATH=\"${workspaceFolder}/install:${CMAKE_PREFIX_PATH:-}\" && export AMENT_PREFIX_PATH=\"${workspaceFolder}/install:${AMENT_PREFIX_PATH:-}\" && exec ${workspaceFolder}/install/lib/video_viewer_qt/video_viewer_qt",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "run: all",
+      "type": "shell",
+      "command": "source /opt/ros/humble/setup.bash && source install/setup.bash && export LD_LIBRARY_PATH=\"${workspaceFolder}/install/lib:${LD_LIBRARY_PATH:-}\" && export CMAKE_PREFIX_PATH=\"${workspaceFolder}/install:${CMAKE_PREFIX_PATH:-}\" && export AMENT_PREFIX_PATH=\"${workspaceFolder}/install:${AMENT_PREFIX_PATH:-}\" && ( ${workspaceFolder}/install/lib/video_ingest/udp_ingest_node & ${workspaceFolder}/install/lib/video_decode/decoder_node & ${workspaceFolder}/install/lib/video_viewer_qt/video_viewer_qt & wait -n )",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

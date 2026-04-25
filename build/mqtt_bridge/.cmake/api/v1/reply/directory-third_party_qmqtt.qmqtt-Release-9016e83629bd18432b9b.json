@@ -1,0 +1,152 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 160,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 169,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 212,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Library",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third_party_qmqtt/qmqtt/libqmqtt.so.1.0.5",
+				"third_party_qmqtt/qmqtt/libqmqtt.so.1"
+			],
+			"targetId" : "qmqtt::@d19ef1b02ce44f799ffb",
+			"targetIndex" : 3,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Library",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third_party_qmqtt/qmqtt/libqmqtt.so"
+			],
+			"targetId" : "qmqtt::@d19ef1b02ce44f799ffb",
+			"targetIndex" : 3,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Devel",
+			"destination" : "lib/cmake/qmqtt",
+			"exportName" : "qmqtt",
+			"exportTargets" : 
+			[
+				{
+					"id" : "qmqtt::@d19ef1b02ce44f799ffb",
+					"index" : 3
+				}
+			],
+			"paths" : 
+			[
+				"third_party_qmqtt/qmqtt/CMakeFiles/Export/lib/cmake/qmqtt/qmqttTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "include",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_global.h",
+				"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt.h",
+				"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_client.h",
+				"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_frame.h",
+				"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_message.h",
+				"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_routesubscription.h",
+				"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_routedmessage.h",
+				"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_router.h",
+				"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_networkinterface.h",
+				"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_socketinterface.h",
+				"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_timerinterface.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Devel",
+			"destination" : "lib/cmake/qmqtt",
+			"exportName" : "qmqtt",
+			"exportTargets" : 
+			[
+				{
+					"id" : "qmqtt::@d19ef1b02ce44f799ffb",
+					"index" : 3
+				}
+			],
+			"paths" : 
+			[
+				"third_party_qmqtt/qmqtt/CMakeFiles/Export/lib/cmake/qmqtt/qmqtt.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/qmqtt",
+			"paths" : 
+			[
+				"/home/arty/Documents/video_ros2/build/mqtt_bridge/third_party_qmqtt/qmqtt/qmqttConfig.cmake",
+				"/home/arty/Documents/video_ros2/build/mqtt_bridge/third_party_qmqtt/qmqtt/qmqttConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "third_party_qmqtt/qmqtt",
+		"source" : "/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt"
+	}
+}

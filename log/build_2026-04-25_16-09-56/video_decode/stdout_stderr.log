@@ -1,0 +1,20 @@
+Consolidate compiler generated dependencies of target decoder_node
+[100%] Built target decoder_node
+-- Install configuration: "Release"
+-- Installing: /home/arty/Documents/video_ros2/install/lib/video_decode/decoder_node
+-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/video_decode/decoder_node" to ""
+-- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/video_decode
+-- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/video_decode
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/environment/ament_prefix_path.sh
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/environment/ament_prefix_path.dsv
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/environment/path.sh
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/environment/path.dsv
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/local_setup.bash
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/local_setup.sh
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/local_setup.zsh
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/local_setup.dsv
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/package.dsv
+-- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/video_decode
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/cmake/video_decodeConfig.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/cmake/video_decodeConfig-version.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/package.xml

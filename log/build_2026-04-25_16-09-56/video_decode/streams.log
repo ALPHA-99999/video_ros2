@@ -1,0 +1,24 @@
+[0.012s] Invoking command in '/home/arty/Documents/video_ros2/build/video_decode': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_decode -- -j16 -l16
+[0.056s] Consolidate compiler generated dependencies of target decoder_node
+[0.069s] [100%] Built target decoder_node
+[0.089s] Invoked command in '/home/arty/Documents/video_ros2/build/video_decode' returned '0': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_decode -- -j16 -l16
+[0.091s] Invoking command in '/home/arty/Documents/video_ros2/build/video_decode': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_decode
+[0.100s] -- Install configuration: "Release"
+[0.100s] -- Installing: /home/arty/Documents/video_ros2/install/lib/video_decode/decoder_node
+[0.101s] -- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/video_decode/decoder_node" to ""
+[0.101s] -- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/video_decode
+[0.101s] -- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/video_decode
+[0.101s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/environment/ament_prefix_path.sh
+[0.102s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/environment/ament_prefix_path.dsv
+[0.102s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/environment/path.sh
+[0.102s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/environment/path.dsv
+[0.102s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/local_setup.bash
+[0.102s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/local_setup.sh
+[0.102s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/local_setup.zsh
+[0.102s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/local_setup.dsv
+[0.103s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/package.dsv
+[0.103s] -- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/video_decode
+[0.103s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/cmake/video_decodeConfig.cmake
+[0.103s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/cmake/video_decodeConfig-version.cmake
+[0.103s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_decode/package.xml
+[0.105s] Invoked command in '/home/arty/Documents/video_ros2/build/video_decode' returned '0': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_decode

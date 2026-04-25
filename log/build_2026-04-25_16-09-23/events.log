@@ -1,0 +1,339 @@
+[0.000000] (-) TimerEvent: {}
+[0.000082] (-) JobUnselected: {'identifier': 'mqtt_bridge'}
+[0.000148] (-) JobUnselected: {'identifier': 'qmqtt'}
+[0.000243] (-) JobUnselected: {'identifier': 'video_decode'}
+[0.000282] (-) JobUnselected: {'identifier': 'video_ingest'}
+[0.000507] (-) JobUnselected: {'identifier': 'video_interfaces'}
+[0.000537] (-) JobUnselected: {'identifier': 'video_viewer_qt'}
+[0.000571] (custom_byteblock) JobQueued: {'identifier': 'custom_byteblock', 'dependencies': OrderedDict([('video_interfaces', '/home/arty/Documents/video_ros2/install')])}
+[0.000715] (custom_byteblock) JobStarted: {'identifier': 'custom_byteblock'}
+[0.007887] (custom_byteblock) JobProgress: {'identifier': 'custom_byteblock', 'progress': 'cmake'}
+[0.009311] (custom_byteblock) JobProgress: {'identifier': 'custom_byteblock', 'progress': 'build'}
+[0.009353] (custom_byteblock) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arty/Documents/video_ros2/build/custom_byteblock', '--', '-j16', '-l16'], 'cwd': '/home/arty/Documents/video_ros2/build/custom_byteblock', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/arty'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'arty'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/nls.messages.json","corruptMarkerFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409","_corruptedFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('ROS_PACKAGE_PATH', '/home/arty/Documents/video_ros2/install/share'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/arty/Documents/video_ros2/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arty'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-95bdfc12-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '991'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1291'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8367dbd94412bd2df9503e4869ec5f9f'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24109'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arty'), ('JOURNAL_STREAM', '8:11720'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('PKG_CONFIG_PATH', '/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig'), ('USERNAME', 'arty'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/arty/.codex/tmp/arg0/codex-arg0Ww7DlR:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/arty/.vscode/extensions/openai.chatgpt-26.422.30944-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:@/tmp/.ICE-unix/1291,unix/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:/tmp/.ICE-unix/1291'), ('INVOCATION_ID', '61d0fc85388741cfb86623dfc4cec069'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019dc260-5a0e-7993-afd4-15f0f2f367fb'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arty/Documents/video_ros2/build/custom_byteblock'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/arty/.config/Code/CachedData/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8367dbd94412bd2df9503e4869ec5f9f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '24109'), ('CMAKE_PREFIX_PATH', '/home/arty/Documents/video_ros2/install')]), 'shell': False}
+[0.042595] (custom_byteblock) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target custom_byteblock_node\n'}
+[0.055393] (custom_byteblock) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/custom_byteblock_node.dir/src/custom_byteblock_node.cpp.o\n'}
+[0.099254] (-) TimerEvent: {}
+[0.199588] (-) TimerEvent: {}
+[0.299823] (-) TimerEvent: {}
+[0.400020] (-) TimerEvent: {}
+[0.500253] (-) TimerEvent: {}
+[0.600500] (-) TimerEvent: {}
+[0.700695] (-) TimerEvent: {}
+[0.800966] (-) TimerEvent: {}
+[0.901190] (-) TimerEvent: {}
+[1.001405] (-) TimerEvent: {}
+[1.101667] (-) TimerEvent: {}
+[1.201966] (-) TimerEvent: {}
+[1.302277] (-) TimerEvent: {}
+[1.402694] (-) TimerEvent: {}
+[1.503008] (-) TimerEvent: {}
+[1.603341] (-) TimerEvent: {}
+[1.703552] (-) TimerEvent: {}
+[1.803716] (-) TimerEvent: {}
+[1.904006] (-) TimerEvent: {}
+[2.004174] (-) TimerEvent: {}
+[2.104346] (-) TimerEvent: {}
+[2.204544] (-) TimerEvent: {}
+[2.304806] (-) TimerEvent: {}
+[2.405115] (-) TimerEvent: {}
+[2.505445] (-) TimerEvent: {}
+[2.605751] (-) TimerEvent: {}
+[2.706082] (-) TimerEvent: {}
+[2.806312] (-) TimerEvent: {}
+[2.906635] (-) TimerEvent: {}
+[3.006911] (-) TimerEvent: {}
+[3.107205] (-) TimerEvent: {}
+[3.207476] (-) TimerEvent: {}
+[3.307637] (-) TimerEvent: {}
+[3.407909] (-) TimerEvent: {}
+[3.508109] (-) TimerEvent: {}
+[3.608279] (-) TimerEvent: {}
+[3.708459] (-) TimerEvent: {}
+[3.808658] (-) TimerEvent: {}
+[3.908930] (-) TimerEvent: {}
+[4.009109] (-) TimerEvent: {}
+[4.109274] (-) TimerEvent: {}
+[4.209539] (-) TimerEvent: {}
+[4.309836] (-) TimerEvent: {}
+[4.410117] (-) TimerEvent: {}
+[4.510284] (-) TimerEvent: {}
+[4.610582] (-) TimerEvent: {}
+[4.710880] (-) TimerEvent: {}
+[4.811100] (-) TimerEvent: {}
+[4.911348] (-) TimerEvent: {}
+[5.011624] (-) TimerEvent: {}
+[5.111885] (-) TimerEvent: {}
+[5.212136] (-) TimerEvent: {}
+[5.312347] (-) TimerEvent: {}
+[5.412571] (-) TimerEvent: {}
+[5.512843] (-) TimerEvent: {}
+[5.613127] (-) TimerEvent: {}
+[5.713305] (-) TimerEvent: {}
+[5.813504] (-) TimerEvent: {}
+[5.913686] (-) TimerEvent: {}
+[6.013962] (-) TimerEvent: {}
+[6.114351] (-) TimerEvent: {}
+[6.214554] (-) TimerEvent: {}
+[6.314894] (-) TimerEvent: {}
+[6.415303] (-) TimerEvent: {}
+[6.515467] (-) TimerEvent: {}
+[6.615738] (-) TimerEvent: {}
+[6.715921] (-) TimerEvent: {}
+[6.816139] (-) TimerEvent: {}
+[6.916409] (-) TimerEvent: {}
+[7.016702] (-) TimerEvent: {}
+[7.116978] (-) TimerEvent: {}
+[7.217132] (-) TimerEvent: {}
+[7.317421] (-) TimerEvent: {}
+[7.417728] (-) TimerEvent: {}
+[7.517887] (-) TimerEvent: {}
+[7.618226] (-) TimerEvent: {}
+[7.718384] (-) TimerEvent: {}
+[7.818642] (-) TimerEvent: {}
+[7.913145] (custom_byteblock) StdoutLine: {'line': b'[100%] Linking CXX executable custom_byteblock_node\n'}
+[7.918835] (-) TimerEvent: {}
+[8.013863] (custom_byteblock) StdoutLine: {'line': b'[100%] Built target custom_byteblock_node\n'}
+[8.019127] (-) TimerEvent: {}
+[8.022174] (custom_byteblock) CommandEnded: {'returncode': 0}
+[8.022885] (custom_byteblock) JobProgress: {'identifier': 'custom_byteblock', 'progress': 'install'}
+[8.029795] (custom_byteblock) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arty/Documents/video_ros2/build/custom_byteblock'], 'cwd': '/home/arty/Documents/video_ros2/build/custom_byteblock', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/arty'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'arty'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/nls.messages.json","corruptMarkerFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409","_corruptedFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('ROS_PACKAGE_PATH', '/home/arty/Documents/video_ros2/install/share'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/arty/Documents/video_ros2/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arty'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-95bdfc12-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '991'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1291'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8367dbd94412bd2df9503e4869ec5f9f'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24109'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arty'), ('JOURNAL_STREAM', '8:11720'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('PKG_CONFIG_PATH', '/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig'), ('USERNAME', 'arty'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/arty/.codex/tmp/arg0/codex-arg0Ww7DlR:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/arty/.vscode/extensions/openai.chatgpt-26.422.30944-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:@/tmp/.ICE-unix/1291,unix/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:/tmp/.ICE-unix/1291'), ('INVOCATION_ID', '61d0fc85388741cfb86623dfc4cec069'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019dc260-5a0e-7993-afd4-15f0f2f367fb'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arty/Documents/video_ros2/build/custom_byteblock'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/arty/.config/Code/CachedData/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8367dbd94412bd2df9503e4869ec5f9f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '24109'), ('CMAKE_PREFIX_PATH', '/home/arty/Documents/video_ros2/install')]), 'shell': False}
+[8.034129] (custom_byteblock) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[8.034233] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/lib/custom_byteblock/custom_byteblock_node\n'}
+[8.034732] (custom_byteblock) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/custom_byteblock/custom_byteblock_node" to ""\n'}
+[8.034813] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/custom_byteblock\n'}
+[8.034845] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/custom_byteblock\n'}
+[8.034873] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/environment/ament_prefix_path.sh\n'}
+[8.034899] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/environment/ament_prefix_path.dsv\n'}
+[8.035064] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/environment/path.sh\n'}
+[8.035260] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/environment/path.dsv\n'}
+[8.035302] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/local_setup.bash\n'}
+[8.035332] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/local_setup.sh\n'}
+[8.035359] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/local_setup.zsh\n'}
+[8.035384] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/local_setup.dsv\n'}
+[8.035444] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/package.dsv\n'}
+[8.035470] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/custom_byteblock\n'}
+[8.035494] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/cmake/custom_byteblockConfig.cmake\n'}
+[8.035517] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/cmake/custom_byteblockConfig-version.cmake\n'}
+[8.035540] (custom_byteblock) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/package.xml\n'}
+[8.119254] (-) TimerEvent: {}
+[8.219616] (-) TimerEvent: {}
+[8.319994] (-) TimerEvent: {}
+[8.420298] (-) TimerEvent: {}
+[8.520659] (-) TimerEvent: {}
+[8.620942] (-) TimerEvent: {}
+[8.721147] (-) TimerEvent: {}
+[8.821372] (-) TimerEvent: {}
+[8.921744] (-) TimerEvent: {}
+[9.022047] (-) TimerEvent: {}
+[9.122365] (-) TimerEvent: {}
+[9.222726] (-) TimerEvent: {}
+[9.322885] (-) TimerEvent: {}
+[9.423179] (-) TimerEvent: {}
+[9.523583] (-) TimerEvent: {}
+[9.624082] (-) TimerEvent: {}
+[9.724360] (-) TimerEvent: {}
+[9.824644] (-) TimerEvent: {}
+[9.924927] (-) TimerEvent: {}
+[10.025209] (-) TimerEvent: {}
+[10.125521] (-) TimerEvent: {}
+[10.225929] (-) TimerEvent: {}
+[10.326266] (-) TimerEvent: {}
+[10.426644] (-) TimerEvent: {}
+[10.526984] (-) TimerEvent: {}
+[10.627267] (-) TimerEvent: {}
+[10.727499] (-) TimerEvent: {}
+[10.827893] (-) TimerEvent: {}
+[10.928200] (-) TimerEvent: {}
+[11.028469] (-) TimerEvent: {}
+[11.128815] (-) TimerEvent: {}
+[11.229119] (-) TimerEvent: {}
+[11.329507] (-) TimerEvent: {}
+[11.429800] (-) TimerEvent: {}
+[11.529996] (-) TimerEvent: {}
+[11.630335] (-) TimerEvent: {}
+[11.730654] (-) TimerEvent: {}
+[11.830845] (-) TimerEvent: {}
+[11.931236] (-) TimerEvent: {}
+[12.031455] (-) TimerEvent: {}
+[12.131848] (-) TimerEvent: {}
+[12.232051] (-) TimerEvent: {}
+[12.332256] (-) TimerEvent: {}
+[12.432463] (-) TimerEvent: {}
+[12.532766] (-) TimerEvent: {}
+[12.633309] (-) TimerEvent: {}
+[12.733680] (-) TimerEvent: {}
+[12.834123] (-) TimerEvent: {}
+[12.934325] (-) TimerEvent: {}
+[13.034601] (-) TimerEvent: {}
+[13.134967] (-) TimerEvent: {}
+[13.235237] (-) TimerEvent: {}
+[13.335448] (-) TimerEvent: {}
+[13.435790] (-) TimerEvent: {}
+[13.536228] (-) TimerEvent: {}
+[13.636514] (-) TimerEvent: {}
+[13.736902] (-) TimerEvent: {}
+[13.837077] (-) TimerEvent: {}
+[13.937244] (-) TimerEvent: {}
+[14.037497] (-) TimerEvent: {}
+[14.137649] (-) TimerEvent: {}
+[14.237802] (-) TimerEvent: {}
+[14.338045] (-) TimerEvent: {}
+[14.438211] (-) TimerEvent: {}
+[14.538457] (-) TimerEvent: {}
+[14.638707] (-) TimerEvent: {}
+[14.739024] (-) TimerEvent: {}
+[14.839354] (-) TimerEvent: {}
+[14.939757] (-) TimerEvent: {}
+[15.040200] (-) TimerEvent: {}
+[15.140357] (-) TimerEvent: {}
+[15.240509] (-) TimerEvent: {}
+[15.340796] (-) TimerEvent: {}
+[15.440979] (-) TimerEvent: {}
+[15.541156] (-) TimerEvent: {}
+[15.641395] (-) TimerEvent: {}
+[15.741648] (-) TimerEvent: {}
+[15.841880] (-) TimerEvent: {}
+[15.942055] (-) TimerEvent: {}
+[16.042286] (-) TimerEvent: {}
+[16.142488] (-) TimerEvent: {}
+[16.242768] (-) TimerEvent: {}
+[16.343036] (-) TimerEvent: {}
+[16.443183] (-) TimerEvent: {}
+[16.543394] (-) TimerEvent: {}
+[16.643720] (-) TimerEvent: {}
+[16.744005] (-) TimerEvent: {}
+[16.844257] (-) TimerEvent: {}
+[16.944530] (-) TimerEvent: {}
+[17.044855] (-) TimerEvent: {}
+[17.145220] (-) TimerEvent: {}
+[17.245453] (-) TimerEvent: {}
+[17.345712] (-) TimerEvent: {}
+[17.446066] (-) TimerEvent: {}
+[17.546339] (-) TimerEvent: {}
+[17.646633] (-) TimerEvent: {}
+[17.747005] (-) TimerEvent: {}
+[17.847344] (-) TimerEvent: {}
+[17.947591] (-) TimerEvent: {}
+[18.047908] (-) TimerEvent: {}
+[18.148348] (-) TimerEvent: {}
+[18.248658] (-) TimerEvent: {}
+[18.348825] (-) TimerEvent: {}
+[18.449027] (-) TimerEvent: {}
+[18.549193] (-) TimerEvent: {}
+[18.649378] (-) TimerEvent: {}
+[18.749677] (-) TimerEvent: {}
+[18.849882] (-) TimerEvent: {}
+[18.950206] (-) TimerEvent: {}
+[19.050469] (-) TimerEvent: {}
+[19.150843] (-) TimerEvent: {}
+[19.251194] (-) TimerEvent: {}
+[19.351455] (-) TimerEvent: {}
+[19.451647] (-) TimerEvent: {}
+[19.551838] (-) TimerEvent: {}
+[19.652106] (-) TimerEvent: {}
+[19.752260] (-) TimerEvent: {}
+[19.852455] (-) TimerEvent: {}
+[19.952739] (-) TimerEvent: {}
+[20.052940] (-) TimerEvent: {}
+[20.153195] (-) TimerEvent: {}
+[20.253484] (-) TimerEvent: {}
+[20.353790] (-) TimerEvent: {}
+[20.454019] (-) TimerEvent: {}
+[20.554387] (-) TimerEvent: {}
+[20.654589] (-) TimerEvent: {}
+[20.754753] (-) TimerEvent: {}
+[20.855045] (-) TimerEvent: {}
+[20.955327] (-) TimerEvent: {}
+[21.055532] (-) TimerEvent: {}
+[21.155727] (-) TimerEvent: {}
+[21.255972] (-) TimerEvent: {}
+[21.356147] (-) TimerEvent: {}
+[21.456327] (-) TimerEvent: {}
+[21.556509] (-) TimerEvent: {}
+[21.656933] (-) TimerEvent: {}
+[21.757489] (-) TimerEvent: {}
+[21.857867] (-) TimerEvent: {}
+[21.958096] (-) TimerEvent: {}
+[22.058458] (-) TimerEvent: {}
+[22.158886] (-) TimerEvent: {}
+[22.259198] (-) TimerEvent: {}
+[22.359409] (-) TimerEvent: {}
+[22.459647] (-) TimerEvent: {}
+[22.559965] (-) TimerEvent: {}
+[22.660206] (-) TimerEvent: {}
+[22.760470] (-) TimerEvent: {}
+[22.860833] (-) TimerEvent: {}
+[22.961129] (-) TimerEvent: {}
+[23.061318] (-) TimerEvent: {}
+[23.161669] (-) TimerEvent: {}
+[23.262037] (-) TimerEvent: {}
+[23.362233] (-) TimerEvent: {}
+[23.462653] (-) TimerEvent: {}
+[23.562970] (-) TimerEvent: {}
+[23.663146] (-) TimerEvent: {}
+[23.763366] (-) TimerEvent: {}
+[23.863683] (-) TimerEvent: {}
+[23.963991] (-) TimerEvent: {}
+[24.064469] (-) TimerEvent: {}
+[24.164969] (-) TimerEvent: {}
+[24.265220] (-) TimerEvent: {}
+[24.365697] (-) TimerEvent: {}
+[24.466111] (-) TimerEvent: {}
+[24.566350] (-) TimerEvent: {}
+[24.666726] (-) TimerEvent: {}
+[24.766902] (-) TimerEvent: {}
+[24.867190] (-) TimerEvent: {}
+[24.967383] (-) TimerEvent: {}
+[25.067658] (-) TimerEvent: {}
+[25.168193] (-) TimerEvent: {}
+[25.268434] (-) TimerEvent: {}
+[25.368742] (-) TimerEvent: {}
+[25.468948] (-) TimerEvent: {}
+[25.569141] (-) TimerEvent: {}
+[25.669325] (-) TimerEvent: {}
+[25.769560] (-) TimerEvent: {}
+[25.869842] (-) TimerEvent: {}
+[25.970121] (-) TimerEvent: {}
+[26.070300] (-) TimerEvent: {}
+[26.170461] (-) TimerEvent: {}
+[26.270952] (-) TimerEvent: {}
+[26.371266] (-) TimerEvent: {}
+[26.471449] (-) TimerEvent: {}
+[26.571632] (-) TimerEvent: {}
+[26.671831] (-) TimerEvent: {}
+[26.772034] (-) TimerEvent: {}
+[26.872243] (-) TimerEvent: {}
+[26.972555] (-) TimerEvent: {}
+[27.072762] (-) TimerEvent: {}
+[27.172938] (-) TimerEvent: {}
+[27.273206] (-) TimerEvent: {}
+[27.373546] (-) TimerEvent: {}
+[27.473739] (-) TimerEvent: {}
+[27.574041] (-) TimerEvent: {}
+[27.674344] (-) TimerEvent: {}
+[27.774771] (-) TimerEvent: {}
+[27.875144] (-) TimerEvent: {}
+[27.975350] (-) TimerEvent: {}
+[28.075570] (-) TimerEvent: {}
+[28.175995] (-) TimerEvent: {}
+[28.276281] (-) TimerEvent: {}
+[28.376583] (-) TimerEvent: {}
+[28.476932] (-) TimerEvent: {}
+[28.577182] (-) TimerEvent: {}
+[28.677586] (-) TimerEvent: {}
+[28.777940] (-) TimerEvent: {}
+[28.878288] (-) TimerEvent: {}
+[28.978592] (-) TimerEvent: {}
+[29.078912] (-) TimerEvent: {}
+[29.179294] (-) TimerEvent: {}
+[29.279454] (-) TimerEvent: {}
+[29.379737] (-) TimerEvent: {}
+[29.479905] (-) TimerEvent: {}
+[29.580209] (-) TimerEvent: {}
+[29.680372] (-) TimerEvent: {}
+[29.780617] (-) TimerEvent: {}
+[29.880786] (-) TimerEvent: {}
+[29.981152] (-) TimerEvent: {}
+[30.023394] (custom_byteblock) CommandEnded: {'returncode': 0}
+[30.035653] (custom_byteblock) JobEnded: {'identifier': 'custom_byteblock', 'rc': 0}
+[30.036072] (-) EventReactorShutdown: {}

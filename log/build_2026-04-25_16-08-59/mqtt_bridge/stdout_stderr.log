@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found video_interfaces: 0.1.0 (/home/arty/Documents/video_ros2/install/share/video_interfaces/cmake)
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE  
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+
+-- Build files have been written to: /home/arty/Documents/video_ros2/build/mqtt_bridge
+[  5%] Automatic MOC for target qmqtt
+[  5%] Built target qmqtt_autogen
+[ 15%] Building CXX object third_party_qmqtt/qmqtt/CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_client_p.cpp.o
+[ 15%] Building CXX object third_party_qmqtt/qmqtt/CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_client.cpp.o
+[ 20%] Building CXX object third_party_qmqtt/qmqtt/CMakeFiles/qmqtt.dir/qmqtt_autogen/mocs_compilation.cpp.o
+[ 25%] Building CXX object third_party_qmqtt/qmqtt/CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_frame.cpp.o
+[ 30%] Building CXX object third_party_qmqtt/qmqtt/CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_routesubscription.cpp.o
+[ 40%] Building CXX object third_party_qmqtt/qmqtt/CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_message.cpp.o
+[ 45%] Building CXX object third_party_qmqtt/qmqtt/CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_router.cpp.o
+[ 45%] Building CXX object third_party_qmqtt/qmqtt/CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_network.cpp.o
+[ 50%] Building CXX object third_party_qmqtt/qmqtt/CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_socket.cpp.o
+[ 60%] Building CXX object third_party_qmqtt/qmqtt/CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_ssl_socket.cpp.o
+[ 60%] Building CXX object third_party_qmqtt/qmqtt/CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_timer.cpp.o
+[ 65%] Linking CXX shared library libqmqtt.so
+[ 65%] Built target qmqtt
+[ 70%] Generating protobuf sources for mqtt_bridge
+[ 75%] Automatic MOC for target mqtt_bridge_node
+[ 75%] Built target mqtt_bridge_node_autogen
+[ 90%] Building CXX object CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o
+[ 90%] Building CXX object CMakeFiles/mqtt_bridge_node.dir/command.pb.cc.o
+[ 90%] Building CXX object CMakeFiles/mqtt_bridge_node.dir/mqtt_bridge_node_autogen/mocs_compilation.cpp.o
+[ 95%] Linking CXX executable mqtt_bridge_node
+[100%] Built target mqtt_bridge_node

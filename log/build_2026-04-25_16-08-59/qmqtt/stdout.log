@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/arty/Documents/video_ros2/build/qmqtt
+[  7%] Automatic MOC for target qmqtt
+[  7%] Built target qmqtt_autogen
+[ 15%] Building CXX object CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_routesubscription.cpp.o
+[ 23%] Building CXX object CMakeFiles/qmqtt.dir/qmqtt_autogen/mocs_compilation.cpp.o
+[ 30%] Building CXX object CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_message.cpp.o
+[ 61%] Building CXX object CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_client.cpp.o
+[ 61%] Building CXX object CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_frame.cpp.o
+[ 61%] Building CXX object CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_socket.cpp.o
+[ 61%] Building CXX object CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_client_p.cpp.o
+[ 69%] Building CXX object CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_ssl_socket.cpp.o
+[ 76%] Building CXX object CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_network.cpp.o
+[ 84%] Building CXX object CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_router.cpp.o
+[ 92%] Building CXX object CMakeFiles/qmqtt.dir/src/mqtt/qmqtt_timer.cpp.o
+[100%] Linking CXX shared library libqmqtt.so
+[100%] Built target qmqtt
+-- Install configuration: "Release"
+-- Installing: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so.1.0.5
+-- Installing: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so.1
+-- Installing: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so
+-- Installing: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttTargets.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttTargets-release.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/include/qmqtt_global.h
+-- Installing: /home/arty/Documents/video_ros2/install/include/qmqtt.h
+-- Installing: /home/arty/Documents/video_ros2/install/include/qmqtt_client.h
+-- Installing: /home/arty/Documents/video_ros2/install/include/qmqtt_frame.h
+-- Installing: /home/arty/Documents/video_ros2/install/include/qmqtt_message.h
+-- Installing: /home/arty/Documents/video_ros2/install/include/qmqtt_routesubscription.h
+-- Installing: /home/arty/Documents/video_ros2/install/include/qmqtt_routedmessage.h
+-- Installing: /home/arty/Documents/video_ros2/install/include/qmqtt_router.h
+-- Installing: /home/arty/Documents/video_ros2/install/include/qmqtt_networkinterface.h
+-- Installing: /home/arty/Documents/video_ros2/install/include/qmqtt_socketinterface.h
+-- Installing: /home/arty/Documents/video_ros2/install/include/qmqtt_timerinterface.h
+-- Installing: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqtt.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqtt-release.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttConfig.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttConfigVersion.cmake

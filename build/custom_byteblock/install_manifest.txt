@@ -1,0 +1,16 @@
+/home/arty/Documents/video_ros2/install/lib/custom_byteblock/custom_byteblock_node
+/home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/custom_byteblock
+/home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/custom_byteblock
+/home/arty/Documents/video_ros2/install/share/custom_byteblock/environment/ament_prefix_path.sh
+/home/arty/Documents/video_ros2/install/share/custom_byteblock/environment/ament_prefix_path.dsv
+/home/arty/Documents/video_ros2/install/share/custom_byteblock/environment/path.sh
+/home/arty/Documents/video_ros2/install/share/custom_byteblock/environment/path.dsv
+/home/arty/Documents/video_ros2/install/share/custom_byteblock/local_setup.bash
+/home/arty/Documents/video_ros2/install/share/custom_byteblock/local_setup.sh
+/home/arty/Documents/video_ros2/install/share/custom_byteblock/local_setup.zsh
+/home/arty/Documents/video_ros2/install/share/custom_byteblock/local_setup.dsv
+/home/arty/Documents/video_ros2/install/share/custom_byteblock/package.dsv
+/home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/custom_byteblock
+/home/arty/Documents/video_ros2/install/share/custom_byteblock/cmake/custom_byteblockConfig.cmake
+/home/arty/Documents/video_ros2/install/share/custom_byteblock/cmake/custom_byteblockConfig-version.cmake
+/home/arty/Documents/video_ros2/install/share/custom_byteblock/package.xml

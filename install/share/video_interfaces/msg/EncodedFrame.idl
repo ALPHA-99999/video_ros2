@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from video_interfaces/msg/EncodedFrame.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module video_interfaces {
+  module msg {
+    struct EncodedFrame {
+      std_msgs::msg::Header header;
+
+      string source;
+
+      uint32 frame_id;
+
+      uint32 frame_size;
+
+      string codec;
+
+      sequence<uint8> data;
+    };
+  };
+};

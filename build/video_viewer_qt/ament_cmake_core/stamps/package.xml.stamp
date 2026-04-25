@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>video_viewer_qt</name>
+  <version>0.1.0</version>
+  <description>Qt viewer for decoded ROS 2 video frames.</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>Proprietary</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+</package>

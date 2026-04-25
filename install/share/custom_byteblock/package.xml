@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>custom_byteblock</name>
+  <version>0.1.0</version>
+  <description>HEVC frame assembler for MQTT byte blocks.</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>Proprietary</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>video_interfaces</depend>
+  <depend>std_msgs</depend>
+</package>

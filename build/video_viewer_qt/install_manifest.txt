@@ -1,0 +1,16 @@
+/home/arty/Documents/video_ros2/install/lib/video_viewer_qt/video_viewer_qt
+/home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/video_viewer_qt
+/home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/video_viewer_qt
+/home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/ament_prefix_path.sh
+/home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/ament_prefix_path.dsv
+/home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/path.sh
+/home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/path.dsv
+/home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.bash
+/home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.sh
+/home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.zsh
+/home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.dsv
+/home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.dsv
+/home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/video_viewer_qt
+/home/arty/Documents/video_ros2/install/share/video_viewer_qt/cmake/video_viewer_qtConfig.cmake
+/home/arty/Documents/video_ros2/install/share/video_viewer_qt/cmake/video_viewer_qtConfig-version.cmake
+/home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.xml

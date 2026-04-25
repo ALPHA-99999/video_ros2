@@ -1,0 +1,11 @@
+/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/uninstall.dir
+/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/video_viewer_qt_uninstall.dir
+/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/video_viewer_qt.dir
+/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/test.dir
+/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/edit_cache.dir
+/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/rebuild_cache.dir
+/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/list_install_components.dir
+/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/install.dir
+/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/install/local.dir
+/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/install/strip.dir
+/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/video_viewer_qt_autogen.dir

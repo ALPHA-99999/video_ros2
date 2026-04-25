@@ -50,8 +50,7 @@ AVPixelFormat HevcDecoder::getHwFormat(AVCodecContext *ctx, const AVPixelFormat 
         ++pix_fmts;
     }
 
-    decoder->disableHardwareDecoding();
-    return AV_PIX_FMT_NONE;
+    return pix_fmts[0];
 }
 
 void HevcDecoder::disableHardwareDecoding()
@@ -105,7 +104,9 @@ bool HevcDecoder::init()
     codec_ctx_ = avcodec_alloc_context3(codec_);
     if (!codec_ctx_) return false;
 
-    initHardwareDevice();
+    hw_enabled_ = false;
+    hw_pix_fmt_ = AV_PIX_FMT_NONE;
+    hw_device_type_ = AV_HWDEVICE_TYPE_NONE;
     codec_ctx_->flags |= AV_CODEC_FLAG_LOW_DELAY;
     codec_ctx_->flags2 |= AV_CODEC_FLAG2_FAST;
 
@@ -161,9 +162,21 @@ bool HevcDecoder::frameToRgbImage(const video_interfaces::msg::EncodedFrame &inp
     image.step = static_cast<sensor_msgs::msg::Image::_step_type>(width * 3);
     image.data.resize(static_cast<size_t>(image.step) * static_cast<size_t>(height));
 
-    uint8_t *dst_data[1] = { image.data.data() };
-    int dst_linesize[1] = { static_cast<int>(image.step) };
+    uint8_t *dst_data[4] = {};
+    int dst_linesize[4] = {};
+    if (av_image_alloc(dst_data, dst_linesize, width, height, AV_PIX_FMT_RGB24, 32) < 0) {
+        return false;
+    }
+
     sws_scale(rgb_sws_ctx_, src_frame->data, src_frame->linesize, 0, height, dst_data, dst_linesize);
+
+    const size_t row_bytes = static_cast<size_t>(image.step);
+    for (int y = 0; y < height; ++y) {
+        std::memcpy(image.data.data() + row_bytes * static_cast<size_t>(y),
+                    dst_data[0] + static_cast<size_t>(dst_linesize[0]) * static_cast<size_t>(y),
+                    row_bytes);
+    }
+    av_freep(&dst_data[0]);
     return true;
 }
 

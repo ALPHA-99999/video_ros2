@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "video_interfaces__py",
+		"source" : "/home/arty/Documents/video_ros2/build/video_interfaces/video_interfaces__py"
+	}
+}

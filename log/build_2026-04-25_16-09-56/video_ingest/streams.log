@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/arty/Documents/video_ros2/build/video_ingest': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_ingest -- -j16 -l16
+[0.057s] [ 25%] Automatic MOC for target udp_ingest_node
+[0.087s] [ 25%] Built target udp_ingest_node_autogen
+[0.090s] Consolidate compiler generated dependencies of target udp_ingest_node
+[0.112s] [100%] Built target udp_ingest_node
+[0.117s] Invoked command in '/home/arty/Documents/video_ros2/build/video_ingest' returned '0': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_ingest -- -j16 -l16
+[0.118s] Invoking command in '/home/arty/Documents/video_ros2/build/video_ingest': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_ingest
+[0.124s] -- Install configuration: "Release"
+[0.124s] -- Installing: /home/arty/Documents/video_ros2/install/lib/video_ingest/udp_ingest_node
+[0.124s] -- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/video_ingest/udp_ingest_node" to ""
+[0.124s] -- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/video_ingest
+[0.124s] -- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/video_ingest
+[0.124s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_ingest/environment/ament_prefix_path.sh
+[0.125s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_ingest/environment/ament_prefix_path.dsv
+[0.125s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_ingest/environment/path.sh
+[0.125s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_ingest/environment/path.dsv
+[0.125s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_ingest/local_setup.bash
+[0.125s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_ingest/local_setup.sh
+[0.125s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_ingest/local_setup.zsh
+[0.125s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_ingest/local_setup.dsv
+[0.125s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_ingest/package.dsv
+[0.125s] -- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/video_ingest
+[0.125s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_ingest/cmake/video_ingestConfig.cmake
+[0.125s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_ingest/cmake/video_ingestConfig-version.cmake
+[0.125s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_ingest/package.xml
+[0.126s] Invoked command in '/home/arty/Documents/video_ros2/build/video_ingest' returned '0': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_ingest

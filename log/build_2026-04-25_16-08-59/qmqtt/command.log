@@ -1,0 +1,6 @@
+Invoking command in '/home/arty/Documents/video_ros2/build/qmqtt': /usr/bin/cmake /home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/arty/Documents/video_ros2/install
+Invoked command in '/home/arty/Documents/video_ros2/build/qmqtt' returned '0': /usr/bin/cmake /home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/arty/Documents/video_ros2/install
+Invoking command in '/home/arty/Documents/video_ros2/build/qmqtt': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/qmqtt -- -j16 -l16
+Invoked command in '/home/arty/Documents/video_ros2/build/qmqtt' returned '0': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/qmqtt -- -j16 -l16
+Invoking command in '/home/arty/Documents/video_ros2/build/qmqtt': /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/qmqtt
+Invoked command in '/home/arty/Documents/video_ros2/build/qmqtt' returned '0': /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/qmqtt

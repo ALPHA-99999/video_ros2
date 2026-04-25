@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "qmqtt_autogen::@d19ef1b02ce44f799ffb",
+	"isGeneratorProvided" : true,
+	"name" : "qmqtt_autogen",
+	"paths" : 
+	{
+		"build" : "third_party_qmqtt/qmqtt",
+		"source" : "/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/arty/Documents/video_ros2/build/mqtt_bridge/third_party_qmqtt/qmqtt/CMakeFiles/qmqtt_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/arty/Documents/video_ros2/build/mqtt_bridge/third_party_qmqtt/qmqtt/CMakeFiles/qmqtt_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

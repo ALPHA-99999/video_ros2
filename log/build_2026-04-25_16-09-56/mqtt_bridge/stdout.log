@@ -1,0 +1,46 @@
+[  5%] Automatic MOC for target qmqtt
+[  5%] Built target qmqtt_autogen
+Consolidate compiler generated dependencies of target qmqtt
+[ 65%] Built target qmqtt
+[ 70%] Automatic MOC for target mqtt_bridge_node
+[ 75%] Built target mqtt_bridge_node_autogen
+Consolidate compiler generated dependencies of target mqtt_bridge_node
+[100%] Built target mqtt_bridge_node
+-- Install configuration: "Release"
+-- Installing: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so.1.0.5
+-- Up-to-date: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so.1
+-- Up-to-date: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so
+-- Installing: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttTargets.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttTargets-release.cmake
+-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_global.h
+-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt.h
+-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_client.h
+-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_frame.h
+-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_message.h
+-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_routesubscription.h
+-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_routedmessage.h
+-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_router.h
+-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_networkinterface.h
+-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_socketinterface.h
+-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_timerinterface.h
+-- Installing: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqtt.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqtt-release.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttConfig.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttConfigVersion.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/lib/mqtt_bridge/mqtt_bridge_node
+-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/mqtt_bridge/mqtt_bridge_node" to ""
+-- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/mqtt_bridge
+-- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/mqtt_bridge
+-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/ament_prefix_path.sh
+-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/ament_prefix_path.dsv
+-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/path.sh
+-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/path.dsv
+-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.bash
+-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.sh
+-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.zsh
+-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.dsv
+-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/package.dsv
+-- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/mqtt_bridge
+-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/cmake/mqtt_bridgeConfig.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/cmake/mqtt_bridgeConfig-version.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/package.xml

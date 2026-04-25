@@ -1,3 +1,5 @@
+#include <cstdint>
+#include <chrono>
 #include <memory>
 #include <vector>
 
@@ -27,19 +29,49 @@ public:
 private:
     void onFrame(const video_interfaces::msg::EncodedFrame &msg)
     {
+        ++encoded_frame_count_;
+
         std::vector<sensor_msgs::msg::Image> images;
         if (!decoder_.decodeAndFill(msg, images)) {
             RCLCPP_WARN_THROTTLE(get_logger(), *get_clock(), 2000, "Failed to decode incoming HEVC frame");
             return;
         }
         for (auto &image : images) {
-            publisher_->publish(std::move(image));
+            ++decoded_image_count_;
+            ++decoded_images_this_second_;
+            logFpsIfDue();
+            publisher_->publish(image);
         }
+    }
+
+    void logFpsIfDue()
+    {
+        const auto now = std::chrono::steady_clock::now();
+        const auto elapsed = now - fps_window_start_;
+        if (elapsed < std::chrono::seconds(1)) {
+            return;
+        }
+
+        const auto elapsed_ms =
+            std::chrono::duration_cast<std::chrono::milliseconds>(elapsed).count();
+        const double fps = static_cast<double>(decoded_images_this_second_) * 1000.0 /
+                           static_cast<double>(elapsed_ms);
+        RCLCPP_INFO(get_logger(),
+                    "Decoded FPS: %.2f total_decoded=%llu total_encoded=%llu",
+                    fps,
+                    static_cast<unsigned long long>(decoded_image_count_),
+                    static_cast<unsigned long long>(encoded_frame_count_));
+        decoded_images_this_second_ = 0;
+        fps_window_start_ = now;
     }
 
     HevcDecoder decoder_;
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr publisher_;
     rclcpp::Subscription<video_interfaces::msg::EncodedFrame>::SharedPtr subscription_;
+    std::uint64_t encoded_frame_count_ = 0;
+    std::uint64_t decoded_image_count_ = 0;
+    std::uint64_t decoded_images_this_second_ = 0;
+    std::chrono::steady_clock::time_point fps_window_start_ = std::chrono::steady_clock::now();
 };
 
 int main(int argc, char *argv[])

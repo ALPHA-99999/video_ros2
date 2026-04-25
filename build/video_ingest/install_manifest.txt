@@ -1,0 +1,16 @@
+/home/arty/Documents/video_ros2/install/lib/video_ingest/udp_ingest_node
+/home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/video_ingest
+/home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/video_ingest
+/home/arty/Documents/video_ros2/install/share/video_ingest/environment/ament_prefix_path.sh
+/home/arty/Documents/video_ros2/install/share/video_ingest/environment/ament_prefix_path.dsv
+/home/arty/Documents/video_ros2/install/share/video_ingest/environment/path.sh
+/home/arty/Documents/video_ros2/install/share/video_ingest/environment/path.dsv
+/home/arty/Documents/video_ros2/install/share/video_ingest/local_setup.bash
+/home/arty/Documents/video_ros2/install/share/video_ingest/local_setup.sh
+/home/arty/Documents/video_ros2/install/share/video_ingest/local_setup.zsh
+/home/arty/Documents/video_ros2/install/share/video_ingest/local_setup.dsv
+/home/arty/Documents/video_ros2/install/share/video_ingest/package.dsv
+/home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/video_ingest
+/home/arty/Documents/video_ros2/install/share/video_ingest/cmake/video_ingestConfig.cmake
+/home/arty/Documents/video_ros2/install/share/video_ingest/cmake/video_ingestConfig-version.cmake
+/home/arty/Documents/video_ros2/install/share/video_ingest/package.xml

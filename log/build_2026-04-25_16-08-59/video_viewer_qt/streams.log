@@ -1,0 +1,58 @@
+[0.010s] Invoking command in '/home/arty/Documents/video_ros2/build/video_viewer_qt': /usr/bin/cmake /home/arty/Documents/video_ros2/src/video_viewer_qt -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/arty/Documents/video_ros2/install
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.109s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.231s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.238s] -- Detecting CXX compile features
+[0.238s] -- Detecting CXX compile features - done
+[0.240s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.374s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.466s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.500s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.502s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.506s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.512s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.547s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.549s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.617s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.642s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.684s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.693s] -- Looking for pthread.h
+[0.874s] -- Looking for pthread.h - found
+[0.875s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.989s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.989s] -- Found Threads: TRUE  
+[1.031s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.073s] -- Performing Test HAVE_STDATOMIC
+[1.207s] -- Performing Test HAVE_STDATOMIC - Success
+[1.207s] -- Found WrapAtomic: TRUE  
+[1.241s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.242s] -- Found WrapOpenGL: TRUE  
+[1.324s] -- Found XKB: /usr/lib/x86_64-linux-gnu/libxkbcommon.so (found suitable version "1.4.0", minimum required is "0.5.0") 
+[1.328s] -- Found WrapVulkanHeaders: /usr/include  
+[1.485s] -- Configuring done
+[1.527s] -- Generating done
+[1.531s] CMake Warning:
+[1.532s]   Manually-specified variables were not used by the project:
+[1.532s] 
+[1.532s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.532s] 
+[1.532s] 
+[1.541s] -- Build files have been written to: /home/arty/Documents/video_ros2/build/video_viewer_qt
+[1.596s] Invoked command in '/home/arty/Documents/video_ros2/build/video_viewer_qt' returned '0': /usr/bin/cmake /home/arty/Documents/video_ros2/src/video_viewer_qt -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/arty/Documents/video_ros2/install
+[1.597s] Invoking command in '/home/arty/Documents/video_ros2/build/video_viewer_qt': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_viewer_qt -- -j16 -l16
+[1.656s] [ 16%] Automatic MOC for target video_viewer_qt
+[2.407s] [ 16%] Built target video_viewer_qt_autogen
+[2.464s] [ 33%] Building CXX object CMakeFiles/video_viewer_qt.dir/video_viewer_qt_autogen/mocs_compilation.cpp.o
+[2.493s] [ 50%] Building CXX object CMakeFiles/video_viewer_qt.dir/src/main.cpp.o
+[2.493s] [ 66%] Building CXX object CMakeFiles/video_viewer_qt.dir/src/image_widget.cpp.o
+[2.508s] [ 83%] Building CXX object CMakeFiles/video_viewer_qt.dir/src/viewer_window.cpp.o
+[17.266s] [100%] Linking CXX executable video_viewer_qt
+[18.506s] [100%] Built target video_viewer_qt

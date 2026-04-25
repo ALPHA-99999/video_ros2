@@ -1,0 +1,8 @@
+setup.py
+video_interfaces/__init__.py
+video_interfaces.egg-info/PKG-INFO
+video_interfaces.egg-info/SOURCES.txt
+video_interfaces.egg-info/dependency_links.txt
+video_interfaces.egg-info/top_level.txt
+video_interfaces/msg/__init__.py
+video_interfaces/msg/_encoded_frame.py

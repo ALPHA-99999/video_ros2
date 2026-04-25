@@ -1,0 +1,31 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+
+/home/arty/Documents/video_ros2/src/custom_byteblock/src/custom_byteblock_node.cpp:107:49: error: ‘RawByteBlock’ is not a member of ‘video_interfaces::msg’
+  107 |     rclcpp::Subscription<video_interfaces::msg::RawByteBlock>::SharedPtr subscription_;
+      |                                                 ^~~~~~~~~~~~
+/home/arty/Documents/video_ros2/src/custom_byteblock/src/custom_byteblock_node.cpp:107:61: error: template argument 1 is invalid
+  107 |     rclcpp::Subscription<video_interfaces::msg::RawByteBlock>::SharedPtr subscription_;
+      |                                                             ^
+/home/arty/Documents/video_ros2/src/custom_byteblock/src/custom_byteblock_node.cpp:107:61: error: template argument 3 is invalid
+/home/arty/Documents/video_ros2/src/custom_byteblock/src/custom_byteblock_node.cpp:107:61: error: template argument 4 is invalid
+/home/arty/Documents/video_ros2/src/custom_byteblock/src/custom_byteblock_node.cpp:107:61: error: template argument 5 is invalid
+/home/arty/Documents/video_ros2/src/custom_byteblock/src/custom_byteblock_node.cpp:107:64: error: expected ‘;’ at end of member declaration
+  107 |     rclcpp::Subscription<video_interfaces::msg::RawByteBlock>::SharedPtr subscription_;
+      |                                                                ^~~~~~~~~
+      |                                                                         ;
+/home/arty/Documents/video_ros2/src/custom_byteblock/src/custom_byteblock_node.cpp:107:74: error: ‘subscription_’ does not name a type; did you mean ‘rmw_subscription_t’?
+  107 |     rclcpp::Subscription<video_interfaces::msg::RawByteBlock>::SharedPtr subscription_;
+      |                                                                          ^~~~~~~~~~~~~
+      |                                                                          rmw_subscription_t
+/home/arty/Documents/video_ros2/src/custom_byteblock/src/custom_byteblock_node.cpp: In constructor ‘CustomByteBlockNode::CustomByteBlockNode()’:
+/home/arty/Documents/video_ros2/src/custom_byteblock/src/custom_byteblock_node.cpp:41:9: error: ‘subscription_’ was not declared in this scope; did you mean ‘rmw_subscription_t’?
+   41 |         subscription_ = create_subscription<std_msgs::msg::UInt8MultiArray>(
+      |         ^~~~~~~~~~~~~
+      |         rmw_subscription_t
+gmake[2]: *** [CMakeFiles/custom_byteblock_node.dir/build.make:76：CMakeFiles/custom_byteblock_node.dir/src/custom_byteblock_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/custom_byteblock_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/arty/Documents/video_ros2/build/custom_byteblock': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/custom_byteblock -- -j16 -l16
+[0.042s] Consolidate compiler generated dependencies of target custom_byteblock_node
+[0.055s] [ 50%] Building CXX object CMakeFiles/custom_byteblock_node.dir/src/custom_byteblock_node.cpp.o
+[7.913s] [100%] Linking CXX executable custom_byteblock_node
+[8.013s] [100%] Built target custom_byteblock_node
+[8.022s] Invoked command in '/home/arty/Documents/video_ros2/build/custom_byteblock' returned '0': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/custom_byteblock -- -j16 -l16
+[8.029s] Invoking command in '/home/arty/Documents/video_ros2/build/custom_byteblock': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/custom_byteblock
+[8.033s] -- Install configuration: "Release"
+[8.034s] -- Installing: /home/arty/Documents/video_ros2/install/lib/custom_byteblock/custom_byteblock_node
+[8.034s] -- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/custom_byteblock/custom_byteblock_node" to ""
+[8.034s] -- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/custom_byteblock
+[8.034s] -- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/custom_byteblock
+[8.034s] -- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/environment/ament_prefix_path.sh
+[8.034s] -- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/environment/ament_prefix_path.dsv
+[8.035s] -- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/environment/path.sh
+[8.035s] -- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/environment/path.dsv
+[8.035s] -- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/local_setup.bash
+[8.035s] -- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/local_setup.sh
+[8.035s] -- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/local_setup.zsh
+[8.035s] -- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/local_setup.dsv
+[8.035s] -- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/package.dsv
+[8.035s] -- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/custom_byteblock
+[8.035s] -- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/cmake/custom_byteblockConfig.cmake
+[8.035s] -- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/cmake/custom_byteblockConfig-version.cmake
+[8.035s] -- Installing: /home/arty/Documents/video_ros2/install/share/custom_byteblock/package.xml
+[30.023s] Invoked command in '/home/arty/Documents/video_ros2/build/custom_byteblock' returned '0': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/custom_byteblock

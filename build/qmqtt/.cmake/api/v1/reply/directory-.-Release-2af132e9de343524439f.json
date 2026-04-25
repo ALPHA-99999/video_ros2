@@ -1,0 +1,152 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 160,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 169,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 212,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Library",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libqmqtt.so.1.0.5",
+				"libqmqtt.so.1"
+			],
+			"targetId" : "qmqtt::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Library",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libqmqtt.so"
+			],
+			"targetId" : "qmqtt::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Devel",
+			"destination" : "lib/cmake/qmqtt",
+			"exportName" : "qmqtt",
+			"exportTargets" : 
+			[
+				{
+					"id" : "qmqtt::@6890427a1f51a3e7e1df",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/lib/cmake/qmqtt/qmqttTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "include",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"src/mqtt/qmqtt_global.h",
+				"src/mqtt/qmqtt.h",
+				"src/mqtt/qmqtt_client.h",
+				"src/mqtt/qmqtt_frame.h",
+				"src/mqtt/qmqtt_message.h",
+				"src/mqtt/qmqtt_routesubscription.h",
+				"src/mqtt/qmqtt_routedmessage.h",
+				"src/mqtt/qmqtt_router.h",
+				"src/mqtt/qmqtt_networkinterface.h",
+				"src/mqtt/qmqtt_socketinterface.h",
+				"src/mqtt/qmqtt_timerinterface.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Devel",
+			"destination" : "lib/cmake/qmqtt",
+			"exportName" : "qmqtt",
+			"exportTargets" : 
+			[
+				{
+					"id" : "qmqtt::@6890427a1f51a3e7e1df",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/lib/cmake/qmqtt/qmqtt.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/qmqtt",
+			"paths" : 
+			[
+				"/home/arty/Documents/video_ros2/build/qmqtt/qmqttConfig.cmake",
+				"/home/arty/Documents/video_ros2/build/qmqtt/qmqttConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

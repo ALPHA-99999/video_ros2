@@ -1,0 +1,22 @@
+[ 16%] Automatic MOC for target video_viewer_qt
+[ 16%] Built target video_viewer_qt_autogen
+Consolidate compiler generated dependencies of target video_viewer_qt
+[100%] Built target video_viewer_qt
+-- Install configuration: "Release"
+-- Installing: /home/arty/Documents/video_ros2/install/lib/video_viewer_qt/video_viewer_qt
+-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/video_viewer_qt/video_viewer_qt" to ""
+-- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/video_viewer_qt
+-- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/video_viewer_qt
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/ament_prefix_path.sh
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/ament_prefix_path.dsv
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/path.sh
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/path.dsv
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.bash
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.sh
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.zsh
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.dsv
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.dsv
+-- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/video_viewer_qt
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/cmake/video_viewer_qtConfig.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/cmake/video_viewer_qtConfig-version.cmake
+-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.xml

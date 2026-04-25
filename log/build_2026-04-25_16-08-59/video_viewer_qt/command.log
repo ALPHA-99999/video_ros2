@@ -1,0 +1,3 @@
+Invoking command in '/home/arty/Documents/video_ros2/build/video_viewer_qt': /usr/bin/cmake /home/arty/Documents/video_ros2/src/video_viewer_qt -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/arty/Documents/video_ros2/install
+Invoked command in '/home/arty/Documents/video_ros2/build/video_viewer_qt' returned '0': /usr/bin/cmake /home/arty/Documents/video_ros2/src/video_viewer_qt -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/arty/Documents/video_ros2/install
+Invoking command in '/home/arty/Documents/video_ros2/build/video_viewer_qt': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_viewer_qt -- -j16 -l16
