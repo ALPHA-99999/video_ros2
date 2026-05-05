@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/video_interfaces/msg/__init__.py"
   "../rosidl_generator_py/video_interfaces/msg/_encoded_frame.py"
   "../rosidl_generator_py/video_interfaces/msg/_encoded_frame_s.c"
+  "../rosidl_generator_py/video_interfaces/srv/__init__.py"
+  "../rosidl_generator_py/video_interfaces/srv/_robot_login.py"
+  "../rosidl_generator_py/video_interfaces/srv/_robot_login_s.c"
   "CMakeFiles/video_interfaces__py"
 )
 

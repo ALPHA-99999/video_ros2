@@ -1,0 +1,33 @@
+[0.011s] Invoking command in '/home/arty/Documents/video_ros2/build/video_viewer_qt': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_viewer_qt -- -j16 -l16
+[0.069s] [ 12%] Automatic MOC for target video_viewer_qt
+[0.530s] [ 12%] Built target video_viewer_qt_autogen
+[0.562s] [ 25%] Automatic RCC for src/qml.qrc
+[0.625s] Consolidate compiler generated dependencies of target video_viewer_qt
+[0.662s] [ 62%] Building CXX object CMakeFiles/video_viewer_qt.dir/src/viewer_backend.cpp.o
+[0.662s] [ 62%] Building CXX object CMakeFiles/video_viewer_qt.dir/video_viewer_qt_autogen/mocs_compilation.cpp.o
+[0.662s] [ 62%] Building CXX object CMakeFiles/video_viewer_qt.dir/src/main.cpp.o
+[0.672s] [ 75%] Building CXX object CMakeFiles/video_viewer_qt.dir/src/viewer_image_provider.cpp.o
+[0.674s] [ 87%] Building CXX object CMakeFiles/video_viewer_qt.dir/video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.o
+[21.746s] [100%] Linking CXX executable video_viewer_qt
+[23.054s] [100%] Built target video_viewer_qt
+[23.065s] Invoked command in '/home/arty/Documents/video_ros2/build/video_viewer_qt' returned '0': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_viewer_qt -- -j16 -l16
+[23.066s] Invoking command in '/home/arty/Documents/video_ros2/build/video_viewer_qt': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_viewer_qt
+[23.077s] -- Install configuration: "Release"
+[23.077s] -- Installing: /home/arty/Documents/video_ros2/install/lib/video_viewer_qt/video_viewer_qt
+[23.080s] -- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/video_viewer_qt/video_viewer_qt" to ""
+[23.080s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/video_viewer_qt
+[23.080s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/video_viewer_qt
+[23.080s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/ament_prefix_path.sh
+[23.080s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/ament_prefix_path.dsv
+[23.080s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/path.sh
+[23.080s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/path.dsv
+[23.080s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.bash
+[23.080s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.sh
+[23.080s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.zsh
+[23.081s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.dsv
+[23.081s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.dsv
+[23.081s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/video_viewer_qt
+[23.081s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/cmake/video_viewer_qtConfig.cmake
+[23.081s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/cmake/video_viewer_qtConfig-version.cmake
+[23.081s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.xml
+[23.081s] Invoked command in '/home/arty/Documents/video_ros2/build/video_viewer_qt' returned '0': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_viewer_qt

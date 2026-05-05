@@ -1,2 +1,6 @@
 msg/EncodedFrame.idl
 msg/EncodedFrame.msg
+srv/RobotLogin.idl
+srv/RobotLogin.srv
+srv/RobotLogin_Request.msg
+srv/RobotLogin_Response.msg

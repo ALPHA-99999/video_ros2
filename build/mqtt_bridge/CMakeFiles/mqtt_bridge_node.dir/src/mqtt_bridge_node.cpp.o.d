@@ -301,11 +301,8 @@ CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer_impl.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication_platform.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QDateTime \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QEventLoop \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qeventloop.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QString \
@@ -735,13 +732,11 @@ CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__type_support.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/encoded_frame.hpp \
- /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__struct.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
- /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__builder.hpp \
- /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__traits.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
- /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__type_support.hpp \
+ /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/robot_login.hpp \
+ /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__struct.hpp \
+ /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__builder.hpp \
+ /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__traits.hpp \
+ /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__type_support.hpp \
  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
  /home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt.h \
  /home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_message.h \
@@ -772,10 +767,13 @@ CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qsslsocket.h \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtcpsocket.h \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qhostaddress.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qsslerror.h \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qsslcertificate.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcryptographichash.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatetime.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qssl.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QFlags \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qflags.h \

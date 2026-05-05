@@ -7,6 +7,7 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/EncodedFrame.msg"
+  "srv/RobotLogin.srv"
   DEPENDENCIES std_msgs
 )
 

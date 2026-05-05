@@ -16,6 +16,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__struct.hpp" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp"
   "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__traits.hpp" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp"
   "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__type_support.hpp" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp"
+  "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__builder.hpp" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp"
+  "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__struct.hpp" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp"
+  "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__traits.hpp" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp"
+  "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__type_support.hpp" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp"
+  "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/srv/robot_login.hpp" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp"
   )
 
 

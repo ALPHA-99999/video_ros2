@@ -71,6 +71,11 @@ CMakeFiles/video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/msg/deta
 CMakeFiles/video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__struct.hpp
 CMakeFiles/video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__traits.hpp
 CMakeFiles/video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__type_support.hpp
+CMakeFiles/video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/srv/robot_login.hpp
+CMakeFiles/video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__builder.hpp
+CMakeFiles/video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__struct.hpp
+CMakeFiles/video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__traits.hpp
+CMakeFiles/video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__type_support.hpp
 CMakeFiles/video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -89,6 +94,7 @@ rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp: /opt/ros/humble/sha
 rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp: rosidl_adapter/video_interfaces/msg/EncodedFrame.idl
+rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp: rosidl_adapter/video_interfaces/srv/RobotLogin.idl
 rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -136,12 +142,32 @@ rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__traits.hpp: rosi
 rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__type_support.hpp: rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__type_support.hpp
 
+rosidl_generator_cpp/video_interfaces/srv/robot_login.hpp: rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/video_interfaces/srv/robot_login.hpp
+
+rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__builder.hpp: rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__builder.hpp
+
+rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__struct.hpp: rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__struct.hpp
+
+rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__traits.hpp: rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__traits.hpp
+
+rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__type_support.hpp: rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__type_support.hpp
+
 video_interfaces__cpp: CMakeFiles/video_interfaces__cpp
 video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__builder.hpp
 video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__struct.hpp
 video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__traits.hpp
 video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__type_support.hpp
 video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp
+video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__builder.hpp
+video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__struct.hpp
+video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__traits.hpp
+video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__type_support.hpp
+video_interfaces__cpp: rosidl_generator_cpp/video_interfaces/srv/robot_login.hpp
 video_interfaces__cpp: CMakeFiles/video_interfaces__cpp.dir/build.make
 .PHONY : video_interfaces__cpp
 

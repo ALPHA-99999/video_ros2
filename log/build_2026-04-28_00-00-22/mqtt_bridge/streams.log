@@ -1,0 +1,68 @@
+[0.018s] Invoking command in '/home/arty/Documents/video_ros2/build/mqtt_bridge': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/mqtt_bridge -- -j16 -l16
+[0.045s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.204s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.245s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.249s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.259s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.332s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.335s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.459s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.508s] -- Found video_interfaces: 0.1.0 (/home/arty/Documents/video_ros2/install/share/video_interfaces/cmake)
+[0.678s] -- Configuring done
+[0.696s] -- Generating done
+[0.700s] -- Build files have been written to: /home/arty/Documents/video_ros2/build/mqtt_bridge
+[0.739s] [  5%] Automatic MOC for target qmqtt
+[0.765s] [  5%] Built target qmqtt_autogen
+[0.781s] Consolidate compiler generated dependencies of target qmqtt
+[0.798s] [ 65%] Built target qmqtt
+[0.822s] [ 70%] Automatic MOC for target mqtt_bridge_node
+[1.474s] [ 75%] Built target mqtt_bridge_node_autogen
+[1.489s] Consolidate compiler generated dependencies of target mqtt_bridge_node
+[1.507s] [ 80%] Building CXX object CMakeFiles/mqtt_bridge_node.dir/mqtt_bridge_node_autogen/mocs_compilation.cpp.o
+[1.529s] [ 85%] Building CXX object CMakeFiles/mqtt_bridge_node.dir/command.pb.cc.o
+[6.131s] [ 90%] Building CXX object CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o
+[12.876s] [ 95%] Linking CXX executable mqtt_bridge_node
+[13.256s] [100%] Built target mqtt_bridge_node
+[13.270s] Invoked command in '/home/arty/Documents/video_ros2/build/mqtt_bridge' returned '0': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/mqtt_bridge -- -j16 -l16
+[13.281s] Invoking command in '/home/arty/Documents/video_ros2/build/mqtt_bridge': /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/mqtt_bridge
+[13.289s] -- Install configuration: "Release"
+[13.290s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so.1.0.5
+[13.290s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so.1
+[13.290s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so
+[13.290s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttTargets.cmake
+[13.290s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttTargets-release.cmake
+[13.290s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_global.h
+[13.290s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt.h
+[13.290s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_client.h
+[13.290s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_frame.h
+[13.290s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_message.h
+[13.290s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_routesubscription.h
+[13.290s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_routedmessage.h
+[13.291s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_router.h
+[13.291s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_networkinterface.h
+[13.291s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_socketinterface.h
+[13.291s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_timerinterface.h
+[13.291s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqtt.cmake
+[13.291s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqtt-release.cmake
+[13.291s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttConfig.cmake
+[13.291s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttConfigVersion.cmake
+[13.291s] -- Installing: /home/arty/Documents/video_ros2/install/lib/mqtt_bridge/mqtt_bridge_node
+[13.291s] -- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/mqtt_bridge/mqtt_bridge_node" to ""
+[13.291s] -- Installing: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/mqtt_bridge
+[13.292s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/mqtt_bridge
+[13.292s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/ament_prefix_path.sh
+[13.292s] -- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/ament_prefix_path.dsv
+[13.292s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/path.sh
+[13.292s] -- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/path.dsv
+[13.292s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.bash
+[13.292s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.sh
+[13.292s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.zsh
+[13.293s] -- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.dsv
+[13.293s] -- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/package.dsv
+[13.293s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/mqtt_bridge
+[13.294s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/cmake/mqtt_bridgeConfig.cmake
+[13.294s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/cmake/mqtt_bridgeConfig-version.cmake
+[13.294s] -- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/package.xml
+[13.294s] Invoked command in '/home/arty/Documents/video_ros2/build/mqtt_bridge' returned '0': /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/mqtt_bridge

@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_py/video_interfaces/msg/__init__.py" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_py/video_interfaces/msg/_encoded_frame.py" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_py/video_interfaces/msg/_encoded_frame_s.c" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_py/video_interfaces/srv/__init__.py" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_py/video_interfaces/srv/_robot_login.py" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_py/video_interfaces/srv/_robot_login_s.c" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

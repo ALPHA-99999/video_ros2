@@ -1,0 +1,4 @@
+Invoking command in '/home/arty/Documents/video_ros2/build/mqtt_bridge': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/mqtt_bridge -- -j16 -l16
+Invoked command in '/home/arty/Documents/video_ros2/build/mqtt_bridge' returned '0': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/mqtt_bridge -- -j16 -l16
+Invoking command in '/home/arty/Documents/video_ros2/build/mqtt_bridge': /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/mqtt_bridge
+Invoked command in '/home/arty/Documents/video_ros2/build/mqtt_bridge' returned '0': /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/mqtt_bridge

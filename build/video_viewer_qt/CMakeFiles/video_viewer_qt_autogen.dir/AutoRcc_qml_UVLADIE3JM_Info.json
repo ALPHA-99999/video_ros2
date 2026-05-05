@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/arty/Documents/video_ros2/build/video_viewer_qt/video_viewer_qt_autogen",
+	"CMAKE_BINARY_DIR" : "/home/arty/Documents/video_ros2/build/video_viewer_qt",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/arty/Documents/video_ros2/build/video_viewer_qt",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/arty/Documents/video_ros2/src/video_viewer_qt",
+	"CMAKE_SOURCE_DIR" : "/home/arty/Documents/video_ros2/src/video_viewer_qt",
+	"INCLUDE_DIR" : "/home/arty/Documents/video_ros2/build/video_viewer_qt/video_viewer_qt_autogen/include",
+	"INPUTS" : [ "/home/arty/Documents/video_ros2/src/video_viewer_qt/qml/Main.qml" ],
+	"LOCK_FILE" : "/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/video_viewer_qt_autogen.dir/AutoRcc_qml_UVLADIE3JM_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "UVLADIE3JM",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/arty/Documents/video_ros2/build/video_viewer_qt/CMakeFiles/video_viewer_qt_autogen.dir/AutoRcc_qml_UVLADIE3JM_Used.txt",
+	"SOURCE" : "/home/arty/Documents/video_ros2/src/video_viewer_qt/src/qml.qrc",
+	"VERBOSITY" : 0
+}

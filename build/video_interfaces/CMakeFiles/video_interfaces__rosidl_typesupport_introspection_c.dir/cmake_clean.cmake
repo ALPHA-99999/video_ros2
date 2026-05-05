@@ -1,10 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/video_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/video_interfaces/msg/detail/encoded_frame__type_support.c.o"
   "CMakeFiles/video_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/video_interfaces/msg/detail/encoded_frame__type_support.c.o.d"
+  "CMakeFiles/video_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/video_interfaces/srv/detail/robot_login__type_support.c.o"
+  "CMakeFiles/video_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/video_interfaces/srv/detail/robot_login__type_support.c.o.d"
   "libvideo_interfaces__rosidl_typesupport_introspection_c.pdb"
   "libvideo_interfaces__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/video_interfaces/msg/detail/encoded_frame__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/video_interfaces/msg/detail/encoded_frame__type_support.c"
+  "rosidl_typesupport_introspection_c/video_interfaces/srv/detail/robot_login__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/video_interfaces/srv/detail/robot_login__type_support.c"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from video_interfaces/srv/RobotLogin.srv
+// generated code does not contain a copyright notice
+
+
+module video_interfaces {
+  module srv {
+    struct RobotLogin_Request {
+      string action;
+
+      string client_id;
+    };
+    struct RobotLogin_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

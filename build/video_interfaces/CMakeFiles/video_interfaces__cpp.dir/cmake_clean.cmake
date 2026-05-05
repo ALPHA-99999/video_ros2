@@ -5,6 +5,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__traits.hpp"
   "rosidl_generator_cpp/video_interfaces/msg/detail/encoded_frame__type_support.hpp"
   "rosidl_generator_cpp/video_interfaces/msg/encoded_frame.hpp"
+  "rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__builder.hpp"
+  "rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__struct.hpp"
+  "rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__traits.hpp"
+  "rosidl_generator_cpp/video_interfaces/srv/detail/robot_login__type_support.hpp"
+  "rosidl_generator_cpp/video_interfaces/srv/robot_login.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/video_interfaces__rosidl_generator_py.dir/rosidl_generator_py/video_interfaces/msg/_encoded_frame_s.c.o"
   "CMakeFiles/video_interfaces__rosidl_generator_py.dir/rosidl_generator_py/video_interfaces/msg/_encoded_frame_s.c.o.d"
+  "CMakeFiles/video_interfaces__rosidl_generator_py.dir/rosidl_generator_py/video_interfaces/srv/_robot_login_s.c.o"
+  "CMakeFiles/video_interfaces__rosidl_generator_py.dir/rosidl_generator_py/video_interfaces/srv/_robot_login_s.c.o.d"
   "rosidl_generator_py/video_interfaces/libvideo_interfaces__rosidl_generator_py.pdb"
   "rosidl_generator_py/video_interfaces/libvideo_interfaces__rosidl_generator_py.so"
 )

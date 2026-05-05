@@ -223,30 +223,6 @@ video_viewer_qt_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt_autogen.dir/build.make CMakeFiles/video_viewer_qt_autogen.dir/build
 .PHONY : video_viewer_qt_autogen/fast
 
-src/image_widget.o: src/image_widget.cpp.o
-.PHONY : src/image_widget.o
-
-# target to build an object file
-src/image_widget.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/image_widget.cpp.o
-.PHONY : src/image_widget.cpp.o
-
-src/image_widget.i: src/image_widget.cpp.i
-.PHONY : src/image_widget.i
-
-# target to preprocess a source file
-src/image_widget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/image_widget.cpp.i
-.PHONY : src/image_widget.cpp.i
-
-src/image_widget.s: src/image_widget.cpp.s
-.PHONY : src/image_widget.s
-
-# target to generate assembly for a file
-src/image_widget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/image_widget.cpp.s
-.PHONY : src/image_widget.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -271,29 +247,77 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/viewer_window.o: src/viewer_window.cpp.o
-.PHONY : src/viewer_window.o
+src/viewer_backend.o: src/viewer_backend.cpp.o
+.PHONY : src/viewer_backend.o
 
 # target to build an object file
-src/viewer_window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/viewer_window.cpp.o
-.PHONY : src/viewer_window.cpp.o
+src/viewer_backend.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/viewer_backend.cpp.o
+.PHONY : src/viewer_backend.cpp.o
 
-src/viewer_window.i: src/viewer_window.cpp.i
-.PHONY : src/viewer_window.i
+src/viewer_backend.i: src/viewer_backend.cpp.i
+.PHONY : src/viewer_backend.i
 
 # target to preprocess a source file
-src/viewer_window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/viewer_window.cpp.i
-.PHONY : src/viewer_window.cpp.i
+src/viewer_backend.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/viewer_backend.cpp.i
+.PHONY : src/viewer_backend.cpp.i
 
-src/viewer_window.s: src/viewer_window.cpp.s
-.PHONY : src/viewer_window.s
+src/viewer_backend.s: src/viewer_backend.cpp.s
+.PHONY : src/viewer_backend.s
 
 # target to generate assembly for a file
-src/viewer_window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/viewer_window.cpp.s
-.PHONY : src/viewer_window.cpp.s
+src/viewer_backend.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/viewer_backend.cpp.s
+.PHONY : src/viewer_backend.cpp.s
+
+src/viewer_image_provider.o: src/viewer_image_provider.cpp.o
+.PHONY : src/viewer_image_provider.o
+
+# target to build an object file
+src/viewer_image_provider.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/viewer_image_provider.cpp.o
+.PHONY : src/viewer_image_provider.cpp.o
+
+src/viewer_image_provider.i: src/viewer_image_provider.cpp.i
+.PHONY : src/viewer_image_provider.i
+
+# target to preprocess a source file
+src/viewer_image_provider.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/viewer_image_provider.cpp.i
+.PHONY : src/viewer_image_provider.cpp.i
+
+src/viewer_image_provider.s: src/viewer_image_provider.cpp.s
+.PHONY : src/viewer_image_provider.s
+
+# target to generate assembly for a file
+src/viewer_image_provider.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/src/viewer_image_provider.cpp.s
+.PHONY : src/viewer_image_provider.cpp.s
+
+video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.o: video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.o
+.PHONY : video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.o
+
+# target to build an object file
+video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.o
+.PHONY : video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.o
+
+video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.i: video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.i
+.PHONY : video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.i
+
+# target to preprocess a source file
+video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.i
+.PHONY : video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.i
+
+video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.s: video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.s
+.PHONY : video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.s
+
+# target to generate assembly for a file
+video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_viewer_qt.dir/build.make CMakeFiles/video_viewer_qt.dir/video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.s
+.PHONY : video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.s
 
 video_viewer_qt_autogen/mocs_compilation.o: video_viewer_qt_autogen/mocs_compilation.cpp.o
 .PHONY : video_viewer_qt_autogen/mocs_compilation.o
@@ -336,15 +360,18 @@ help:
 	@echo "... video_viewer_qt_autogen"
 	@echo "... video_viewer_qt_uninstall"
 	@echo "... video_viewer_qt"
-	@echo "... src/image_widget.o"
-	@echo "... src/image_widget.i"
-	@echo "... src/image_widget.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/viewer_window.o"
-	@echo "... src/viewer_window.i"
-	@echo "... src/viewer_window.s"
+	@echo "... src/viewer_backend.o"
+	@echo "... src/viewer_backend.i"
+	@echo "... src/viewer_backend.s"
+	@echo "... src/viewer_image_provider.o"
+	@echo "... src/viewer_image_provider.i"
+	@echo "... src/viewer_image_provider.s"
+	@echo "... video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.o"
+	@echo "... video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.i"
+	@echo "... video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.s"
 	@echo "... video_viewer_qt_autogen/mocs_compilation.o"
 	@echo "... video_viewer_qt_autogen/mocs_compilation.i"
 	@echo "... video_viewer_qt_autogen/mocs_compilation.s"

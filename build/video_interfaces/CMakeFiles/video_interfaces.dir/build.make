@@ -67,6 +67,9 @@ include CMakeFiles/video_interfaces.dir/compiler_depend.make
 include CMakeFiles/video_interfaces.dir/progress.make
 
 CMakeFiles/video_interfaces: /home/arty/Documents/video_ros2/src/video_interfaces/msg/EncodedFrame.msg
+CMakeFiles/video_interfaces: /home/arty/Documents/video_ros2/src/video_interfaces/srv/RobotLogin.srv
+CMakeFiles/video_interfaces: rosidl_cmake/srv/RobotLogin_Request.msg
+CMakeFiles/video_interfaces: rosidl_cmake/srv/RobotLogin_Response.msg
 CMakeFiles/video_interfaces: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/video_interfaces: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/video_interfaces: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl

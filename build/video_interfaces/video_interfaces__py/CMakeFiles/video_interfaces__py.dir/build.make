@@ -70,8 +70,11 @@ video_interfaces__py/CMakeFiles/video_interfaces__py: rosidl_generator_py/video_
 video_interfaces__py/CMakeFiles/video_interfaces__py: rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 video_interfaces__py/CMakeFiles/video_interfaces__py: rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_c.c
 video_interfaces__py/CMakeFiles/video_interfaces__py: rosidl_generator_py/video_interfaces/msg/_encoded_frame.py
+video_interfaces__py/CMakeFiles/video_interfaces__py: rosidl_generator_py/video_interfaces/srv/_robot_login.py
 video_interfaces__py/CMakeFiles/video_interfaces__py: rosidl_generator_py/video_interfaces/msg/__init__.py
+video_interfaces__py/CMakeFiles/video_interfaces__py: rosidl_generator_py/video_interfaces/srv/__init__.py
 video_interfaces__py/CMakeFiles/video_interfaces__py: rosidl_generator_py/video_interfaces/msg/_encoded_frame_s.c
+video_interfaces__py/CMakeFiles/video_interfaces__py: rosidl_generator_py/video_interfaces/srv/_robot_login_s.c
 
 rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,7 @@ rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_f
 rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/video_interfaces/msg/EncodedFrame.idl
+rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/video_interfaces/srv/RobotLogin.idl
 rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -131,11 +135,20 @@ rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_c
 rosidl_generator_py/video_interfaces/msg/_encoded_frame.py: rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/video_interfaces/msg/_encoded_frame.py
 
+rosidl_generator_py/video_interfaces/srv/_robot_login.py: rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/video_interfaces/srv/_robot_login.py
+
 rosidl_generator_py/video_interfaces/msg/__init__.py: rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/video_interfaces/msg/__init__.py
 
+rosidl_generator_py/video_interfaces/srv/__init__.py: rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/video_interfaces/srv/__init__.py
+
 rosidl_generator_py/video_interfaces/msg/_encoded_frame_s.c: rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/video_interfaces/msg/_encoded_frame_s.c
+
+rosidl_generator_py/video_interfaces/srv/_robot_login_s.c: rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/video_interfaces/srv/_robot_login_s.c
 
 video_interfaces__py: rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_c.c
 video_interfaces__py: rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -143,6 +156,9 @@ video_interfaces__py: rosidl_generator_py/video_interfaces/_video_interfaces_s.e
 video_interfaces__py: rosidl_generator_py/video_interfaces/msg/__init__.py
 video_interfaces__py: rosidl_generator_py/video_interfaces/msg/_encoded_frame.py
 video_interfaces__py: rosidl_generator_py/video_interfaces/msg/_encoded_frame_s.c
+video_interfaces__py: rosidl_generator_py/video_interfaces/srv/__init__.py
+video_interfaces__py: rosidl_generator_py/video_interfaces/srv/_robot_login.py
+video_interfaces__py: rosidl_generator_py/video_interfaces/srv/_robot_login_s.c
 video_interfaces__py: video_interfaces__py/CMakeFiles/video_interfaces__py
 video_interfaces__py: video_interfaces__py/CMakeFiles/video_interfaces__py.dir/build.make
 .PHONY : video_interfaces__py

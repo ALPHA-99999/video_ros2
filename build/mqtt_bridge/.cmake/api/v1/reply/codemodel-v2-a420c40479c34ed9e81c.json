@@ -1,0 +1,140 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-e863259e2d35b71d6eda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5
+					]
+				},
+				{
+					"build" : "third_party_qmqtt/qmqtt",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third_party_qmqtt.qmqtt-Release-9016e83629bd18432b9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mqtt_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "qmqtt",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mqtt_bridge_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mqtt_bridge_node-Release-39a4b1bf7f26e2d61f06.json",
+					"name" : "mqtt_bridge_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mqtt_bridge_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mqtt_bridge_node_autogen-Release-7058143556b02f5ceeae.json",
+					"name" : "mqtt_bridge_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mqtt_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mqtt_bridge_uninstall-Release-2749c535e30ca689959c.json",
+					"name" : "mqtt_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "qmqtt::@d19ef1b02ce44f799ffb",
+					"jsonFile" : "target-qmqtt-Release-ce12bb2a601895cdcc96.json",
+					"name" : "qmqtt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "qmqtt_autogen::@d19ef1b02ce44f799ffb",
+					"jsonFile" : "target-qmqtt_autogen-Release-dd2ee3d065067cee0170.json",
+					"name" : "qmqtt_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-1e89bacbd5e562843eed.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arty/Documents/video_ros2/build/mqtt_bridge",
+		"source" : "/home/arty/Documents/video_ros2/src/mqtt_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

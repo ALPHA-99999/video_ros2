@@ -71,6 +71,8 @@ video_interfaces__rs/CMakeFiles/video_interfaces__rs: rosidl_generator_rs/video_
 video_interfaces__rs/CMakeFiles/video_interfaces__rs: rosidl_generator_rs/video_interfaces/rust/Cargo.toml
 video_interfaces__rs/CMakeFiles/video_interfaces__rs: rosidl_generator_rs/video_interfaces/rust/src/msg.rs
 video_interfaces__rs/CMakeFiles/video_interfaces__rs: rosidl_generator_rs/video_interfaces/rust/src/msg/rmw.rs
+video_interfaces__rs/CMakeFiles/video_interfaces__rs: rosidl_generator_rs/video_interfaces/rust/src/srv.rs
+video_interfaces__rs/CMakeFiles/video_interfaces__rs: rosidl_generator_rs/video_interfaces/rust/src/srv/rmw.rs
 
 rosidl_generator_rs/video_interfaces/rust/src/lib.rs: /opt/ros/humble/lib/rosidl_generator_rs/rosidl_generator_rs
 rosidl_generator_rs/video_interfaces/rust/src/lib.rs: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py
@@ -85,7 +87,9 @@ rosidl_generator_rs/video_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosi
 rosidl_generator_rs/video_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
 rosidl_generator_rs/video_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
 rosidl_generator_rs/video_interfaces/rust/src/lib.rs: rosidl_adapter/video_interfaces/msg/EncodedFrame.idl
+rosidl_generator_rs/video_interfaces/rust/src/lib.rs: rosidl_adapter/video_interfaces/srv/RobotLogin.idl
 rosidl_generator_rs/video_interfaces/rust/src/lib.rs: rosidl_adapter/video_interfaces/msg/EncodedFrame.idl
+rosidl_generator_rs/video_interfaces/rust/src/lib.rs: rosidl_adapter/video_interfaces/srv/RobotLogin.idl
 rosidl_generator_rs/video_interfaces/rust/src/lib.rs: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_rs/video_interfaces/rust/src/lib.rs: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_rs/video_interfaces/rust/src/lib.rs: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -133,11 +137,19 @@ rosidl_generator_rs/video_interfaces/rust/src/msg.rs: rosidl_generator_rs/video_
 rosidl_generator_rs/video_interfaces/rust/src/msg/rmw.rs: rosidl_generator_rs/video_interfaces/rust/src/lib.rs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/video_interfaces/rust/src/msg/rmw.rs
 
+rosidl_generator_rs/video_interfaces/rust/src/srv.rs: rosidl_generator_rs/video_interfaces/rust/src/lib.rs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/video_interfaces/rust/src/srv.rs
+
+rosidl_generator_rs/video_interfaces/rust/src/srv/rmw.rs: rosidl_generator_rs/video_interfaces/rust/src/lib.rs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/video_interfaces/rust/src/srv/rmw.rs
+
 video_interfaces__rs: rosidl_generator_rs/video_interfaces/rust/Cargo.toml
 video_interfaces__rs: rosidl_generator_rs/video_interfaces/rust/build.rs
 video_interfaces__rs: rosidl_generator_rs/video_interfaces/rust/src/lib.rs
 video_interfaces__rs: rosidl_generator_rs/video_interfaces/rust/src/msg.rs
 video_interfaces__rs: rosidl_generator_rs/video_interfaces/rust/src/msg/rmw.rs
+video_interfaces__rs: rosidl_generator_rs/video_interfaces/rust/src/srv.rs
+video_interfaces__rs: rosidl_generator_rs/video_interfaces/rust/src/srv/rmw.rs
 video_interfaces__rs: video_interfaces__rs/CMakeFiles/video_interfaces__rs
 video_interfaces__rs: video_interfaces__rs/CMakeFiles/video_interfaces__rs.dir/build.make
 .PHONY : video_interfaces__rs

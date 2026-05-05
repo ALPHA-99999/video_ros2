@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-be25608c94a94cfb3590.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						18
+					]
+				},
+				{
+					"build" : "video_interfaces__py",
+					"jsonFile" : "directory-video_interfaces__py-Release-c4e72f3b5a3e2004d473.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/arty/Documents/video_ros2/build/video_interfaces/video_interfaces__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "video_interfaces__rs",
+					"jsonFile" : "directory-video_interfaces__rs-Release-aaaa7c8ced7d350972fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/arty/Documents/video_ros2/build/video_interfaces/video_interfaces__rs",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "video_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_video_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_video_interfaces_egg-Release-6aeaa244259550e01b75.json",
+					"name" : "ament_cmake_python_build_video_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_video_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_video_interfaces-Release-b9ce6dca0d10d9fcfa54.json",
+					"name" : "ament_cmake_python_copy_video_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-13f0218ea2993f37535a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces-Release-ad9abe6dcb81d6e5e103.json",
+					"name" : "video_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces__cpp-Release-bc8b34baf8eb60b264a6.json",
+					"name" : "video_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "video_interfaces__py::@34f62fb5567d7275999a",
+					"jsonFile" : "target-video_interfaces__py-Release-0857287a5f99463d10d4.json",
+					"name" : "video_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces__rosidl_generator_c-Release-c67f921a01c3d88c1234.json",
+					"name" : "video_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces__rosidl_generator_py-Release-26c9ab4211cc33cb2d64.json",
+					"name" : "video_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces__rosidl_typesupport_c-Release-65b790dd7191d67a46ac.json",
+					"name" : "video_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces__rosidl_typesupport_c__pyext-Release-04dfefa2a031448516c8.json",
+					"name" : "video_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces__rosidl_typesupport_cpp-Release-b4ce2e425310f4ad20f6.json",
+					"name" : "video_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces__rosidl_typesupport_fastrtps_c-Release-f6dd7aed25fab8d102b1.json",
+					"name" : "video_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces__rosidl_typesupport_fastrtps_c__pyext-Release-6f6810832a739b011202.json",
+					"name" : "video_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces__rosidl_typesupport_fastrtps_cpp-Release-e75cc7edc58365bb0ba9.json",
+					"name" : "video_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces__rosidl_typesupport_introspection_c-Release-eb109e2ebf31bb293cf8.json",
+					"name" : "video_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces__rosidl_typesupport_introspection_c__pyext-Release-3b979f7b18d55bfa46e1.json",
+					"name" : "video_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces__rosidl_typesupport_introspection_cpp-Release-41e27b1701e3b19613e5.json",
+					"name" : "video_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "video_interfaces__rs::@19237cc52f44f18ebaf8",
+					"jsonFile" : "target-video_interfaces__rs-Release-a78b3f520d7855129443.json",
+					"name" : "video_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_interfaces_uninstall-Release-0cb943d01c046c4d74ba.json",
+					"name" : "video_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arty/Documents/video_ros2/build/video_interfaces",
+		"source" : "/home/arty/Documents/video_ros2/src/video_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

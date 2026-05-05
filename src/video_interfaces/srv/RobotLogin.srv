@@ -1,0 +1,5 @@
+string action
+string client_id
+---
+bool success
+string message

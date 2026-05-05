@@ -1,6 +1,7 @@
 {
   "package_name": "video_interfaces",
   "non_idl_tuples": [
-    "/home/arty/Documents/video_ros2/src/video_interfaces:msg/EncodedFrame.msg"
+    "/home/arty/Documents/video_ros2/src/video_interfaces:msg/EncodedFrame.msg",
+    "/home/arty/Documents/video_ros2/src/video_interfaces:srv/RobotLogin.srv"
   ]
 }

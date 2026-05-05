@@ -8,6 +8,7 @@ set(CMAKE_AUTOMOC ON)
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(video_interfaces REQUIRED)
+find_package(std_msgs REQUIRED)
 find_package(Qt6 REQUIRED COMPONENTS Core Network)
 find_package(Protobuf REQUIRED)
 
@@ -44,7 +45,7 @@ target_link_libraries(mqtt_bridge_node
   qmqtt
   ${Protobuf_LIBRARIES}
 )
-ament_target_dependencies(mqtt_bridge_node rclcpp video_interfaces)
+ament_target_dependencies(mqtt_bridge_node rclcpp video_interfaces std_msgs)
 
 install(TARGETS mqtt_bridge_node
   RUNTIME DESTINATION lib/${PROJECT_NAME}

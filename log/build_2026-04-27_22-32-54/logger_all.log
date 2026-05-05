@@ -1,0 +1,277 @@
+[0.103s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--merge-install', '--packages-select', 'video_viewer_qt']
+[0.103s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['video_viewer_qt'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x766018d37460>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x766018e7c880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x766018e7c880>>)
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.221s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arty/Documents/video_ros2'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_byteblock) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_byteblock) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_byteblock) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_byteblock) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_byteblock) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_byteblock) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_byteblock) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_byteblock) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_byteblock) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_byteblock' with type 'ros.catkin' and name 'custom_byteblock'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mqtt_bridge' with type 'ros.catkin' and name 'mqtt_bridge'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/bin) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/lib) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/qmqtt) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/qmqtt) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/qmqtt) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/qmqtt) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/qmqtt) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/qmqtt) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/qmqtt) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/qmqtt) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/qmqtt) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/qmqtt) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/qmqtt) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party_qmqtt/qmqtt) by extension 'python'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/third_party_qmqtt/qmqtt' with type 'cmake' and name 'qmqtt'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_decode) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_decode) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_decode) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_decode) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_decode) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_decode) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_decode) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_decode) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_decode) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/video_decode' with type 'ros.catkin' and name 'video_decode'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_ingest) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_ingest) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_ingest) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_ingest) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_ingest) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_ingest) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_ingest) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_ingest) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_ingest) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/video_ingest' with type 'ros.catkin' and name 'video_ingest'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_interfaces) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/video_interfaces' with type 'ros.catkin' and name 'video_interfaces'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_viewer_qt) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_viewer_qt) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_viewer_qt) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_viewer_qt) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_viewer_qt) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_viewer_qt) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_viewer_qt) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_viewer_qt) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_viewer_qt) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/video_viewer_qt' with type 'ros.catkin' and name 'video_viewer_qt'
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.262s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'qmqtt' in 'src/third_party_qmqtt/qmqtt'
+[0.263s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'video_interfaces' in 'src/video_interfaces'
+[0.263s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_byteblock' in 'src/custom_byteblock'
+[0.263s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mqtt_bridge' in 'src/mqtt_bridge'
+[0.263s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'video_decode' in 'src/video_decode'
+[0.263s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'video_ingest' in 'src/video_ingest'
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.264s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'video_viewer_qt' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'video_viewer_qt' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'video_viewer_qt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'video_viewer_qt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'video_viewer_qt' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'video_viewer_qt' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'video_viewer_qt' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'video_viewer_qt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'video_viewer_qt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'video_viewer_qt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arty/Documents/video_ros2/build/video_viewer_qt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arty/Documents/video_ros2/install', 'merge_install': True, 'path': '/home/arty/Documents/video_ros2/src/video_viewer_qt', 'symlink_install': False, 'test_result_base': None}
+[0.301s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.302s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.303s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/arty/Documents/video_ros2/src/video_viewer_qt' with build type 'catkin'
+[0.303s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arty/Documents/video_ros2/src/video_viewer_qt'
+[0.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arty/Documents/video_ros2/build/video_viewer_qt': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_viewer_qt -- -j16 -l16
+[1.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arty/Documents/video_ros2/build/video_viewer_qt' returned '0': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_viewer_qt -- -j16 -l16
+[1.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arty/Documents/video_ros2/build/video_viewer_qt': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_viewer_qt
+[1.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arty/Documents/video_ros2/build/video_viewer_qt' returned '0': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_viewer_qt
+[1.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_viewer_qt', 'ros_package_path')
+[1.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/ros_package_path.ps1'
+[1.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/ros_package_path.dsv'
+[1.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/ros_package_path.sh'
+[1.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_viewer_qt', 'pkg_config_path')
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/pkg_config_path.ps1'
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/pkg_config_path.dsv'
+[1.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/pkg_config_path.sh'
+[1.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_viewer_qt', 'pkg_config_path_multiarch')
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/pkg_config_path_multiarch.ps1'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/pkg_config_path_multiarch.dsv'
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/pkg_config_path_multiarch.sh'
+[1.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(video_viewer_qt)
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/arty/Documents/video_ros2/install' for CMake module files
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/arty/Documents/video_ros2/install' for CMake config files
+[1.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_viewer_qt', 'cmake_prefix_path')
+[1.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/cmake_prefix_path.ps1'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/cmake_prefix_path.dsv'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/cmake_prefix_path.sh'
+[1.556s] Level 1:colcon.colcon_core.environment:checking '/home/arty/Documents/video_ros2/install/lib'
+[1.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_viewer_qt', 'ld_library_path_lib')
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/ld_library_path_lib.ps1'
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/ld_library_path_lib.dsv'
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/hook/ld_library_path_lib.sh'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/arty/Documents/video_ros2/install/bin'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/arty/Documents/video_ros2/install/lib/pkgconfig/video_viewer_qt.pc'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/arty/Documents/video_ros2/install/lib/python3.10/site-packages'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/arty/Documents/video_ros2/install/bin'
+[1.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.ps1'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.dsv'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.sh'
+[1.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.bash'
+[1.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.zsh'
+[1.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arty/Documents/video_ros2/install/share/colcon-core/packages/video_viewer_qt)
+[1.562s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.563s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.563s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.563s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.571s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.571s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.571s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.585s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.585s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arty/Documents/video_ros2/install/local_setup.ps1'
+[1.586s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arty/Documents/video_ros2/install/_local_setup_util_ps1.py'
+[1.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arty/Documents/video_ros2/install/setup.ps1'
+[1.588s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arty/Documents/video_ros2/install/local_setup.sh'
+[1.589s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arty/Documents/video_ros2/install/_local_setup_util_sh.py'
+[1.589s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arty/Documents/video_ros2/install/setup.sh'
+[1.590s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arty/Documents/video_ros2/install/local_setup.bash'
+[1.590s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arty/Documents/video_ros2/install/setup.bash'
+[1.591s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arty/Documents/video_ros2/install/local_setup.zsh'
+[1.591s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arty/Documents/video_ros2/install/setup.zsh'

@@ -1163,13 +1163,16 @@ CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o: /home/arty/Documents
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__type_support.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
-  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/encoded_frame.hpp \
-  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
-  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__builder.hpp \
-  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__traits.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
-  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__type_support.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
+  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/robot_login.hpp \
+  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__struct.hpp \
+  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__builder.hpp \
+  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__traits.hpp \
+  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__type_support.hpp \
   /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt.h \
   /home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_message.h \
@@ -1285,9 +1288,11 @@ CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o: /home/arty/Documents
 
 /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
+/home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__type_support.hpp:
 
-/home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/encoded_frame.hpp:
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -1370,8 +1375,6 @@ CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o: /home/arty/Documents
 /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
 
@@ -1468,6 +1471,8 @@ CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o: /home/arty/Documents
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
 
@@ -1584,6 +1589,8 @@ CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o: /home/arty/Documents
 /usr/include/c++/11/bits/locale_conv.h:
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
+
+/home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/robot_login.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
 
@@ -1719,8 +1726,6 @@ CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o: /home/arty/Documents
 
 /usr/include/c++/11/bits/stl_bvector.h:
 
-/home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__builder.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
@@ -1800,6 +1805,8 @@ CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o: /home/arty/Documents
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
 /usr/include/c++/11/bits/exception_defines.h:
+
+/home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
@@ -2025,6 +2032,8 @@ CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o: /home/arty/Documents
 
 /usr/include/x86_64-linux-gnu/asm/param.h:
 
+/home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__struct.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
@@ -2229,6 +2238,8 @@ command.pb.h:
 
 /usr/include/google/protobuf/arena_impl.h:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
+
 /usr/include/google/protobuf/reflection_ops.h:
 
 /usr/include/x86_64-linux-gnu/sys/param.h:
@@ -2320,8 +2331,6 @@ command.pb.h:
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
-
-/home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -2627,13 +2636,13 @@ mqtt_bridge_node_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/11/bits/stream_iterator.h:
 
-/home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__traits.hpp:
-
 /usr/include/c++/11/array:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringview.h:
 
 /opt/ros/humble/include/rmw/rmw/macros.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
 
@@ -2680,6 +2689,8 @@ mqtt_bridge_node_autogen/mocs_compilation.cpp:
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
 /usr/include/google/protobuf/map_type_handler.h:
+
+/home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__traits.hpp:
 
 /usr/include/c++/11/ext/type_traits.h:
 
@@ -2730,8 +2741,6 @@ mqtt_bridge_node_autogen/mocs_compilation.cpp:
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:
 
 /usr/include/google/protobuf/io/zero_copy_stream_impl_lite.h:
-
-/home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 

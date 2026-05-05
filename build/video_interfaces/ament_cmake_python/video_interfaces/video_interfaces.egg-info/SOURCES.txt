@@ -6,3 +6,5 @@ video_interfaces.egg-info/dependency_links.txt
 video_interfaces.egg-info/top_level.txt
 video_interfaces/msg/__init__.py
 video_interfaces/msg/_encoded_frame.py
+video_interfaces/srv/__init__.py
+video_interfaces/srv/_robot_login.py

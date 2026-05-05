@@ -1,0 +1,4 @@
+Invoking command in '/home/arty/Documents/video_ros2/build/video_viewer_qt': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_viewer_qt -- -j16 -l16
+Invoked command in '/home/arty/Documents/video_ros2/build/video_viewer_qt' returned '0': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_viewer_qt -- -j16 -l16
+Invoking command in '/home/arty/Documents/video_ros2/build/video_viewer_qt': /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_viewer_qt
+Invoked command in '/home/arty/Documents/video_ros2/build/video_viewer_qt' returned '0': /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_viewer_qt

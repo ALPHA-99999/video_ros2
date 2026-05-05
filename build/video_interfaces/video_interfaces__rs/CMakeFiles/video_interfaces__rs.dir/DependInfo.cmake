@@ -16,6 +16,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_rs/video_interfaces/rust/build.rs" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_rs/video_interfaces/rust/src/lib.rs"
   "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_rs/video_interfaces/rust/src/msg.rs" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_rs/video_interfaces/rust/src/lib.rs"
   "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_rs/video_interfaces/rust/src/msg/rmw.rs" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_rs/video_interfaces/rust/src/lib.rs"
+  "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_rs/video_interfaces/rust/src/srv.rs" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_rs/video_interfaces/rust/src/lib.rs"
+  "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_rs/video_interfaces/rust/src/srv/rmw.rs" "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_rs/video_interfaces/rust/src/lib.rs"
   )
 
 

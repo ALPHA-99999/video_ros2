@@ -1,0 +1,14 @@
+/usr/bin/ld: CMakeFiles/video_viewer_qt.dir/src/main.cpp.o: in function `ViewerBackend::~ViewerBackend()':
+main.cpp:(.text._ZN13ViewerBackendD2Ev[_ZN13ViewerBackendD5Ev]+0x7): undefined reference to `vtable for ViewerBackend'
+/usr/bin/ld: CMakeFiles/video_viewer_qt.dir/src/main.cpp.o: in function `ViewerBackend::~ViewerBackend()':
+main.cpp:(.text._ZN13ViewerBackendD0Ev[_ZN13ViewerBackendD5Ev]+0x7): undefined reference to `vtable for ViewerBackend'
+/usr/bin/ld: CMakeFiles/video_viewer_qt.dir/src/viewer_backend.cpp.o: in function `ViewerBackend::handleImage(sensor_msgs::msg::Image_<std::allocator<void> > const&)':
+viewer_backend.cpp:(.text+0xda7): undefined reference to `ViewerBackend::frameUpdated()'
+/usr/bin/ld: CMakeFiles/video_viewer_qt.dir/src/viewer_backend.cpp.o: in function `ViewerBackend::ViewerBackend(QObject*)':
+viewer_backend.cpp:(.text+0xf89): undefined reference to `vtable for ViewerBackend'
+/usr/bin/ld: CMakeFiles/video_viewer_qt.dir/src/viewer_backend.cpp.o: in function `ViewerBackend::handleImage(sensor_msgs::msg::Image_<std::allocator<void> > const&)':
+viewer_backend.cpp:(.text+0xaf8): undefined reference to `ViewerBackend::stateChanged()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/video_viewer_qt.dir/build.make:232：video_viewer_qt] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:138：CMakeFiles/video_viewer_qt.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

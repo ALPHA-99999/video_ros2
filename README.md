@@ -20,7 +20,7 @@ sudo apt update
 sudo apt install -y \
   build-essential cmake pkg-config protobuf-compiler libprotobuf-dev \
   ffmpeg libavcodec-dev libavformat-dev libavutil-dev libswscale-dev \
-  qt6-base-dev
+  qt6-base-dev qt6-declarative-dev qt6-declarative-dev-tools
 ```
 
 3. Build from the workspace root:

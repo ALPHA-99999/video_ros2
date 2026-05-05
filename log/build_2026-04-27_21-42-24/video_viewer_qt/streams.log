@@ -1,0 +1,31 @@
+[0.015s] Invoking command in '/home/arty/Documents/video_ros2/build/video_viewer_qt': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_viewer_qt -- -j16 -l16
+[0.078s] [ 12%] Automatic MOC for target video_viewer_qt
+[0.401s] [ 12%] Built target video_viewer_qt_autogen
+[0.421s] Consolidate compiler generated dependencies of target video_viewer_qt
+[0.436s] [ 25%] Building CXX object CMakeFiles/video_viewer_qt.dir/video_viewer_qt_autogen/mocs_compilation.cpp.o
+[0.437s] [ 50%] Building CXX object CMakeFiles/video_viewer_qt.dir/src/viewer_image_provider.cpp.o
+[0.437s] [ 50%] Building CXX object CMakeFiles/video_viewer_qt.dir/src/viewer_backend.cpp.o
+[0.437s] [ 62%] Building CXX object CMakeFiles/video_viewer_qt.dir/src/main.cpp.o
+[12.342s] [ 75%] Linking CXX executable video_viewer_qt
+[14.894s] [100%] Built target video_viewer_qt
+[14.918s] Invoked command in '/home/arty/Documents/video_ros2/build/video_viewer_qt' returned '0': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_viewer_qt -- -j16 -l16
+[14.940s] Invoking command in '/home/arty/Documents/video_ros2/build/video_viewer_qt': /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_viewer_qt
+[14.954s] -- Install configuration: "Release"
+[14.955s] -- Installing: /home/arty/Documents/video_ros2/install/lib/video_viewer_qt/video_viewer_qt
+[14.957s] -- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/video_viewer_qt/video_viewer_qt" to ""
+[14.958s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/video_viewer_qt
+[14.958s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/video_viewer_qt
+[14.958s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/ament_prefix_path.sh
+[14.958s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/ament_prefix_path.dsv
+[14.958s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/path.sh
+[14.958s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/path.dsv
+[14.958s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.bash
+[14.958s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.sh
+[14.958s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.zsh
+[14.958s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.dsv
+[14.958s] -- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.dsv
+[14.959s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/video_viewer_qt
+[14.959s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/cmake/video_viewer_qtConfig.cmake
+[14.959s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/cmake/video_viewer_qtConfig-version.cmake
+[14.959s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.xml
+[14.960s] Invoked command in '/home/arty/Documents/video_ros2/build/video_viewer_qt' returned '0': /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_viewer_qt

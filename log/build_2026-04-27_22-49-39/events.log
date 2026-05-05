@@ -1,0 +1,660 @@
+[0.000000] (-) TimerEvent: {}
+[0.000142] (-) JobUnselected: {'identifier': 'custom_byteblock'}
+[0.000354] (-) JobUnselected: {'identifier': 'qmqtt'}
+[0.000728] (-) JobUnselected: {'identifier': 'video_decode'}
+[0.001133] (-) JobUnselected: {'identifier': 'video_ingest'}
+[0.001383] (video_interfaces) JobQueued: {'identifier': 'video_interfaces', 'dependencies': OrderedDict()}
+[0.001435] (mqtt_bridge) JobQueued: {'identifier': 'mqtt_bridge', 'dependencies': OrderedDict([('video_interfaces', '/home/arty/Documents/video_ros2/install')])}
+[0.001497] (video_viewer_qt) JobQueued: {'identifier': 'video_viewer_qt', 'dependencies': OrderedDict([('video_interfaces', '/home/arty/Documents/video_ros2/install')])}
+[0.001780] (video_interfaces) JobStarted: {'identifier': 'video_interfaces'}
+[0.013846] (video_interfaces) JobProgress: {'identifier': 'video_interfaces', 'progress': 'cmake'}
+[0.014834] (video_interfaces) JobProgress: {'identifier': 'video_interfaces', 'progress': 'build'}
+[0.015917] (video_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arty/Documents/video_ros2/build/video_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/arty/Documents/video_ros2/build/video_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/arty'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'arty'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/nls.messages.json","corruptMarkerFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409","_corruptedFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arty'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/arty/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/arty/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-95bdfc12-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '967'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1293'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1782c65edbce2656839e3bb469ef7e44'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12092'), ('NVM_DIR', '/home/arty/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arty'), ('JOURNAL_STREAM', '8:18343'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'arty'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/arty/.codex/tmp/arg0/codex-arg0tlOlkw:/home/arty/.nvm/versions/node/v24.15.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/arty/.vscode/extensions/openai.chatgpt-26.422.30944-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:@/tmp/.ICE-unix/1293,unix/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:/tmp/.ICE-unix/1293'), ('INVOCATION_ID', 'c8d5c75dd8b0402fbc2f8d4ed2164650'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019dc260-5a0e-7993-afd4-15f0f2f367fb'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arty/Documents/video_ros2/build/video_interfaces'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/arty/.config/Code/CachedData/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1782c65edbce2656839e3bb469ef7e44'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '12092')]), 'shell': False}
+[0.048371] (video_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099609] (-) TimerEvent: {}
+[0.197045] (video_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.197857] (video_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199596] (video_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.199705] (-) TimerEvent: {}
+[0.222294] (video_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.248627] (video_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.299840] (-) TimerEvent: {}
+[0.400096] (-) TimerEvent: {}
+[0.500381] (-) TimerEvent: {}
+[0.594266] (video_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600657] (-) TimerEvent: {}
+[0.701017] (-) TimerEvent: {}
+[0.801191] (-) TimerEvent: {}
+[0.819415] (video_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901337] (-) TimerEvent: {}
+[1.001534] (-) TimerEvent: {}
+[1.085140] (video_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101724] (-) TimerEvent: {}
+[1.110178] (video_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.137102] (video_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.137446] (video_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.137560] (video_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.201828] (-) TimerEvent: {}
+[1.241851] (video_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.294250] (video_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.301928] (-) TimerEvent: {}
+[1.303182] (video_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/arty/Documents/video_ros2/build/video_interfaces\n'}
+[1.337345] (video_interfaces) StdoutLine: {'line': b'[  2%] Generating C code for ROS interfaces\n'}
+[1.355663] (video_interfaces) StdoutLine: {'line': b'[  5%] Generating C++ code for ROS interfaces\n'}
+[1.356036] (video_interfaces) StdoutLine: {'line': b'[  7%] Generating Rust code for ROS interfaces\n'}
+[1.371088] (video_interfaces) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_copy_video_interfaces\n'}
+[1.402055] (-) TimerEvent: {}
+[1.502645] (-) TimerEvent: {}
+[1.603037] (-) TimerEvent: {}
+[1.632330] (video_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.633335] (video_interfaces) StdoutLine: {'line': b'writing video_interfaces.egg-info/PKG-INFO\n'}
+[1.633687] (video_interfaces) StdoutLine: {'line': b'writing dependency_links to video_interfaces.egg-info/dependency_links.txt\n'}
+[1.634810] (video_interfaces) StdoutLine: {'line': b'writing top-level names to video_interfaces.egg-info/top_level.txt\n'}
+[1.638358] (video_interfaces) StdoutLine: {'line': b"reading manifest file 'video_interfaces.egg-info/SOURCES.txt'\n"}
+[1.639284] (video_interfaces) StdoutLine: {'line': b"writing manifest file 'video_interfaces.egg-info/SOURCES.txt'\n"}
+[1.659218] (video_interfaces) StdoutLine: {'line': b'[  7%] Built target video_interfaces__rs\n'}
+[1.676010] (video_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_interfaces__rosidl_generator_c\n'}
+[1.690236] (video_interfaces) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/video_interfaces__rosidl_generator_c.dir/rosidl_generator_c/video_interfaces/msg/detail/encoded_frame__functions.c.o\n'}
+[1.690455] (video_interfaces) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/video_interfaces__rosidl_generator_c.dir/rosidl_generator_c/video_interfaces/srv/detail/robot_login__functions.c.o\n'}
+[1.703146] (-) TimerEvent: {}
+[1.703485] (video_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_video_interfaces_egg\n'}
+[1.803525] (-) TimerEvent: {}
+[1.842721] (video_interfaces) StdoutLine: {'line': b'[ 12%] Built target video_interfaces__cpp\n'}
+[1.853280] (video_interfaces) StdoutLine: {'line': b'[ 17%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[1.853710] (video_interfaces) StdoutLine: {'line': b'[ 17%] Generating C++ type support dispatch for ROS interfaces\n'}
+[1.859771] (video_interfaces) StdoutLine: {'line': b'[ 20%] Generating C++ introspection for ROS interfaces\n'}
+[1.859996] (video_interfaces) StdoutLine: {'line': b'[ 22%] Linking C shared library libvideo_interfaces__rosidl_generator_c.so\n'}
+[1.903966] (-) TimerEvent: {}
+[1.918445] (video_interfaces) StdoutLine: {'line': b'[ 22%] Built target video_interfaces__rosidl_generator_c\n'}
+[1.938575] (video_interfaces) StdoutLine: {'line': b'[ 27%] Generating C introspection for ROS interfaces\n'}
+[1.939139] (video_interfaces) StdoutLine: {'line': b'[ 30%] Generating C type support for eProsima Fast-RTPS\n'}
+[1.939315] (video_interfaces) StdoutLine: {'line': b'[ 27%] Generating C type support dispatch for ROS interfaces\n'}
+[2.004164] (-) TimerEvent: {}
+[2.104439] (-) TimerEvent: {}
+[2.183933] (video_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.198149] (video_interfaces) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/video_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/video_interfaces/msg/detail/encoded_frame__type_support.cpp.o\n'}
+[2.202013] (video_interfaces) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/video_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/video_interfaces/srv/detail/robot_login__type_support.cpp.o\n'}
+[2.204594] (-) TimerEvent: {}
+[2.205156] (video_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.225094] (video_interfaces) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/video_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/video_interfaces/msg/detail/dds_fastrtps/encoded_frame__type_support.cpp.o\n'}
+[2.228481] (video_interfaces) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/video_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/video_interfaces/srv/detail/dds_fastrtps/robot_login__type_support.cpp.o\n'}
+[2.265200] (video_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_interfaces__rosidl_typesupport_cpp\n'}
+[2.283819] (video_interfaces) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/video_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/video_interfaces/srv/robot_login__type_support.cpp.o\n'}
+[2.284899] (video_interfaces) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/video_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/video_interfaces/msg/encoded_frame__type_support.cpp.o\n'}
+[2.304975] (-) TimerEvent: {}
+[2.345354] (video_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_interfaces__rosidl_typesupport_c\n'}
+[2.362687] (video_interfaces) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/video_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/video_interfaces/msg/encoded_frame__type_support.cpp.o\n'}
+[2.368880] (video_interfaces) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/video_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/video_interfaces/srv/robot_login__type_support.cpp.o\n'}
+[2.381943] (video_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.404365] (video_interfaces) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/video_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/video_interfaces/msg/detail/encoded_frame__type_support_c.cpp.o\n'}
+[2.406183] (video_interfaces) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/video_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/video_interfaces/srv/detail/robot_login__type_support_c.cpp.o\n'}
+[2.406990] (-) TimerEvent: {}
+[2.456457] (video_interfaces) StdoutLine: {'line': b'[ 57%] Linking CXX shared library libvideo_interfaces__rosidl_typesupport_c.so\n'}
+[2.495593] (video_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.507161] (-) TimerEvent: {}
+[2.533741] (video_interfaces) StdoutLine: {'line': b'[ 60%] Building C object CMakeFiles/video_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/video_interfaces/msg/detail/encoded_frame__type_support.c.o\n'}
+[2.546756] (video_interfaces) StdoutLine: {'line': b'[ 62%] Building C object CMakeFiles/video_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/video_interfaces/srv/detail/robot_login__type_support.c.o\n'}
+[2.607413] (-) TimerEvent: {}
+[2.615582] (video_interfaces) StdoutLine: {'line': b'[ 62%] Built target video_interfaces__rosidl_typesupport_c\n'}
+[2.659836] (video_interfaces) StdoutLine: {'line': b'[ 65%] Linking C shared library libvideo_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.706027] (video_interfaces) StdoutLine: {'line': b'[ 65%] Built target video_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.707538] (-) TimerEvent: {}
+[2.808089] (-) TimerEvent: {}
+[2.909141] (-) TimerEvent: {}
+[2.917237] (video_interfaces) StdoutLine: {'line': b'[ 67%] Linking CXX shared library libvideo_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.001822] (video_interfaces) StdoutLine: {'line': b'[ 67%] Built target video_interfaces__rosidl_typesupport_cpp\n'}
+[3.009229] (-) TimerEvent: {}
+[3.077714] (video_interfaces) StdoutLine: {'line': b'[ 70%] Linking CXX shared library libvideo_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.109582] (-) TimerEvent: {}
+[3.209182] (video_interfaces) StdoutLine: {'line': b'[ 72%] Linking CXX shared library libvideo_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.209876] (-) TimerEvent: {}
+[3.260809] (video_interfaces) StdoutLine: {'line': b'[ 72%] Built target video_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.296593] (video_interfaces) StdoutLine: {'line': b'[ 75%] Linking CXX shared library libvideo_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.310040] (-) TimerEvent: {}
+[3.382410] (video_interfaces) StdoutLine: {'line': b'[ 75%] Built target video_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.410186] (-) TimerEvent: {}
+[3.410807] (video_interfaces) StdoutLine: {'line': b'[ 75%] Built target video_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.437307] (video_interfaces) StdoutLine: {'line': b'[ 75%] Built target video_interfaces\n'}
+[3.462138] (video_interfaces) StdoutLine: {'line': b'[ 77%] Generating Python code for ROS interfaces\n'}
+[3.510282] (-) TimerEvent: {}
+[3.610607] (-) TimerEvent: {}
+[3.710902] (-) TimerEvent: {}
+[3.811106] (-) TimerEvent: {}
+[3.906789] (video_interfaces) StdoutLine: {'line': b'[ 77%] Built target video_interfaces__py\n'}
+[3.911276] (-) TimerEvent: {}
+[3.924521] (video_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_interfaces__rosidl_generator_py\n'}
+[3.940769] (video_interfaces) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/video_interfaces__rosidl_generator_py.dir/rosidl_generator_py/video_interfaces/srv/_robot_login_s.c.o\n'}
+[3.941002] (video_interfaces) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/video_interfaces__rosidl_generator_py.dir/rosidl_generator_py/video_interfaces/msg/_encoded_frame_s.c.o\n'}
+[4.011394] (-) TimerEvent: {}
+[4.107582] (video_interfaces) StdoutLine: {'line': b'[ 85%] Linking C shared library rosidl_generator_py/video_interfaces/libvideo_interfaces__rosidl_generator_py.so\n'}
+[4.111747] (-) TimerEvent: {}
+[4.147550] (video_interfaces) StdoutLine: {'line': b'[ 85%] Built target video_interfaces__rosidl_generator_py\n'}
+[4.160162] (video_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.160350] (video_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.162325] (video_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.175009] (video_interfaces) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/video_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[4.175198] (video_interfaces) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/video_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[4.176062] (video_interfaces) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/video_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[4.211812] (-) TimerEvent: {}
+[4.312038] (-) TimerEvent: {}
+[4.318079] (video_interfaces) StdoutLine: {'line': b'[ 95%] Linking C shared library rosidl_generator_py/video_interfaces/video_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.334567] (video_interfaces) StdoutLine: {'line': b'[ 97%] Linking C shared library rosidl_generator_py/video_interfaces/video_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.378312] (video_interfaces) StdoutLine: {'line': b'[ 97%] Built target video_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.392362] (video_interfaces) StdoutLine: {'line': b'[ 97%] Built target video_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.395241] (video_interfaces) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/video_interfaces/video_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.412139] (-) TimerEvent: {}
+[4.432492] (video_interfaces) StdoutLine: {'line': b'[100%] Built target video_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.444253] (video_interfaces) CommandEnded: {'returncode': 0}
+[4.445731] (video_interfaces) JobProgress: {'identifier': 'video_interfaces', 'progress': 'install'}
+[4.454076] (video_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arty/Documents/video_ros2/build/video_interfaces'], 'cwd': '/home/arty/Documents/video_ros2/build/video_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/arty'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'arty'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/nls.messages.json","corruptMarkerFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409","_corruptedFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arty'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/arty/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/arty/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-95bdfc12-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '967'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1293'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1782c65edbce2656839e3bb469ef7e44'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12092'), ('NVM_DIR', '/home/arty/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arty'), ('JOURNAL_STREAM', '8:18343'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'arty'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/arty/.codex/tmp/arg0/codex-arg0tlOlkw:/home/arty/.nvm/versions/node/v24.15.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/arty/.vscode/extensions/openai.chatgpt-26.422.30944-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:@/tmp/.ICE-unix/1293,unix/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:/tmp/.ICE-unix/1293'), ('INVOCATION_ID', 'c8d5c75dd8b0402fbc2f8d4ed2164650'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019dc260-5a0e-7993-afd4-15f0f2f367fb'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arty/Documents/video_ros2/build/video_interfaces'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/arty/.config/Code/CachedData/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1782c65edbce2656839e3bb469ef7e44'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '12092')]), 'shell': False}
+[4.460512] (video_interfaces) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[4.460691] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/rosidl_interfaces/video_interfaces\n'}
+[4.460757] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces\n'}
+[4.460809] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg\n'}
+[4.460861] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/encoded_frame.h\n'}
+[4.460912] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail\n'}
+[4.461078] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__struct.h\n'}
+[4.461160] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__functions.c\n'}
+[4.461211] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__type_support.h\n'}
+[4.461261] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__functions.h\n'}
+[4.461310] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.461388] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv\n'}
+[4.461512] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail\n'}
+[4.461643] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__functions.c\n'}
+[4.461710] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__struct.h\n'}
+[4.461790] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__type_support.h\n'}
+[4.461838] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__functions.h\n'}
+[4.461884] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/robot_login.h\n'}
+[4.462006] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/environment/library_path.sh\n'}
+[4.462065] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/environment/library_path.dsv\n'}
+[4.462207] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_generator_c.so\n'}
+[4.462256] (video_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.462332] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces\n'}
+[4.462388] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg\n'}
+[4.462439] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail\n'}
+[4.462524] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[4.462635] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.462697] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv\n'}
+[4.462748] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail\n'}
+[4.462809] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__rosidl_typesupport_fastrtps_c.h\n'}
+[4.462860] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.463473] (video_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.463631] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces\n'}
+[4.463739] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg\n'}
+[4.463806] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.463959] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail\n'}
+[4.464104] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__rosidl_typesupport_introspection_c.h\n'}
+[4.464206] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__type_support.c\n'}
+[4.464335] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv\n'}
+[4.464462] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail\n'}
+[4.464647] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__rosidl_typesupport_introspection_c.h\n'}
+[4.465167] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__type_support.c\n'}
+[4.465410] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.465647] (video_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.465781] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_typesupport_c.so\n'}
+[4.465973] (video_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.466347] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces\n'}
+[4.466463] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg\n'}
+[4.466584] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/encoded_frame.hpp\n'}
+[4.466727] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail\n'}
+[4.466849] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__builder.hpp\n'}
+[4.466939] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__type_support.hpp\n'}
+[4.467023] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__struct.hpp\n'}
+[4.467111] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__traits.hpp\n'}
+[4.467191] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.467264] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv\n'}
+[4.467344] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/robot_login.hpp\n'}
+[4.467425] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail\n'}
+[4.467497] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__type_support.hpp\n'}
+[4.467574] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__struct.hpp\n'}
+[4.467704] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__traits.hpp\n'}
+[4.467785] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__builder.hpp\n'}
+[4.467854] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces\n'}
+[4.467925] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg\n'}
+[4.467996] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.468076] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail\n'}
+[4.468147] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.468214] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/dds_fastrtps\n'}
+[4.468282] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv\n'}
+[4.468349] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail\n'}
+[4.468419] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.468487] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/dds_fastrtps\n'}
+[4.468555] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.468632] (video_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.468724] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces\n'}
+[4.468852] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg\n'}
+[4.469354] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail\n'}
+[4.469503] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.469578] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__type_support.cpp\n'}
+[4.469675] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv\n'}
+[4.469753] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail\n'}
+[4.470194] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__type_support.cpp\n'}
+[4.470280] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.470366] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.470433] (video_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.470501] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.470568] (video_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.470650] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/environment/pythonpath.sh\n'}
+[4.470721] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/environment/pythonpath.dsv\n'}
+[4.470788] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces-0.1.0-py3.10.egg-info\n'}
+[4.470857] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[4.470925] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.470995] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.471066] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[4.471137] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces\n'}
+[4.471206] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/__init__.py\n'}
+[4.471274] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.471354] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.471423] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/msg\n'}
+[4.471490] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/msg/_encoded_frame_s.c\n'}
+[4.471559] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/msg/__init__.py\n'}
+[4.471647] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/msg/_encoded_frame.py\n'}
+[4.471722] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/libvideo_interfaces__rosidl_generator_py.so\n'}
+[4.471796] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.471875] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.471962] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/_video_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.472047] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/srv\n'}
+[4.472122] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/srv/__init__.py\n'}
+[4.472190] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/srv/_robot_login_s.c\n'}
+[4.472258] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/srv/_robot_login.py\n'}
+[4.472331] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.504302] (video_interfaces) StdoutLine: {'line': b"Listing '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces'...\n"}
+[4.504539] (video_interfaces) StdoutLine: {'line': b"Compiling '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/__init__.py'...\n"}
+[4.504648] (video_interfaces) StdoutLine: {'line': b"Listing '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/msg'...\n"}
+[4.504743] (video_interfaces) StdoutLine: {'line': b"Compiling '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/msg/__init__.py'...\n"}
+[4.504833] (video_interfaces) StdoutLine: {'line': b"Compiling '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/msg/_encoded_frame.py'...\n"}
+[4.504915] (video_interfaces) StdoutLine: {'line': b"Listing '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/srv'...\n"}
+[4.504995] (video_interfaces) StdoutLine: {'line': b"Compiling '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/srv/__init__.py'...\n"}
+[4.505077] (video_interfaces) StdoutLine: {'line': b"Compiling '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/srv/_robot_login.py'...\n"}
+[4.508944] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.509176] (video_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.509352] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.509505] (video_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.509652] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.509854] (video_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages/video_interfaces/video_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.509945] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_generator_py.so\n'}
+[4.510079] (video_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/libvideo_interfaces__rosidl_generator_py.so" to ""\n'}
+[4.510421] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/rust_packages/video_interfaces\n'}
+[4.510502] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/rust\n'}
+[4.510583] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/rust/src\n'}
+[4.511110] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/rust/src/msg\n'}
+[4.511388] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/rust/src/msg/rmw.rs\n'}
+[4.511472] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/rust/src/lib.rs\n'}
+[4.512129] (-) TimerEvent: {}
+[4.512495] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/rust/src/srv.rs\n'}
+[4.512594] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/rust/src/msg.rs\n'}
+[4.512690] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/rust/src/srv\n'}
+[4.512769] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/rust/src/srv/rmw.rs\n'}
+[4.512846] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/rust/build.rs\n'}
+[4.512919] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/rust/Cargo.toml\n'}
+[4.512992] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/msg/EncodedFrame.idl\n'}
+[4.513072] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/srv/RobotLogin.idl\n'}
+[4.513144] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/msg/EncodedFrame.msg\n'}
+[4.513216] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/srv/RobotLogin.srv\n'}
+[4.513289] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/srv/RobotLogin_Request.msg\n'}
+[4.513362] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/srv/RobotLogin_Response.msg\n'}
+[4.513434] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/video_interfaces\n'}
+[4.513509] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/video_interfaces\n'}
+[4.513807] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/environment/ament_prefix_path.sh\n'}
+[4.514363] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.514525] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/environment/path.sh\n'}
+[4.514733] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/environment/path.dsv\n'}
+[4.515037] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/local_setup.bash\n'}
+[4.515157] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/local_setup.sh\n'}
+[4.515937] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/local_setup.zsh\n'}
+[4.516206] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/local_setup.dsv\n'}
+[4.516309] (video_interfaces) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_interfaces/package.dsv\n'}
+[4.517210] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/video_interfaces\n'}
+[4.517296] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/export_video_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.517376] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/export_video_interfaces__rosidl_generator_cExport-release.cmake\n'}
+[4.517506] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/export_video_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.517594] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/export_video_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[4.517857] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.517967] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[4.518324] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.518439] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_cExport-release.cmake\n'}
+[4.518516] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/export_video_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.518622] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/export_video_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.518859] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/export_video_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[4.518977] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.519707] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[4.519846] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.519957] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/video_interfaces__rosidl_typesupport_cppExport-release.cmake\n'}
+[4.520041] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/export_video_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.520119] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/export_video_interfaces__rosidl_generator_pyExport-release.cmake\n'}
+[4.520189] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.520261] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.520338] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.520413] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.520911] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.521022] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.521068] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.521103] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/video_interfacesConfig.cmake\n'}
+[4.521136] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/cmake/video_interfacesConfig-version.cmake\n'}
+[4.521168] (video_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_interfaces/package.xml\n'}
+[4.521204] (video_interfaces) CommandEnded: {'returncode': 0}
+[4.542676] (video_interfaces) JobEnded: {'identifier': 'video_interfaces', 'rc': 0}
+[4.543399] (mqtt_bridge) JobStarted: {'identifier': 'mqtt_bridge'}
+[4.545114] (video_viewer_qt) JobStarted: {'identifier': 'video_viewer_qt'}
+[4.549042] (mqtt_bridge) JobProgress: {'identifier': 'mqtt_bridge', 'progress': 'cmake'}
+[4.549870] (mqtt_bridge) JobProgress: {'identifier': 'mqtt_bridge', 'progress': 'build'}
+[4.550223] (mqtt_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arty/Documents/video_ros2/build/mqtt_bridge', '--', '-j16', '-l16'], 'cwd': '/home/arty/Documents/video_ros2/build/mqtt_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/arty'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'arty'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/nls.messages.json","corruptMarkerFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409","_corruptedFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('ROS_PACKAGE_PATH', '/home/arty/Documents/video_ros2/install/share'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/arty/Documents/video_ros2/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arty'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/arty/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/arty/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-95bdfc12-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '967'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1293'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1782c65edbce2656839e3bb469ef7e44'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12092'), ('NVM_DIR', '/home/arty/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arty'), ('JOURNAL_STREAM', '8:18343'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('PKG_CONFIG_PATH', '/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig'), ('USERNAME', 'arty'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/arty/.codex/tmp/arg0/codex-arg0tlOlkw:/home/arty/.nvm/versions/node/v24.15.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/arty/.vscode/extensions/openai.chatgpt-26.422.30944-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:@/tmp/.ICE-unix/1293,unix/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:/tmp/.ICE-unix/1293'), ('INVOCATION_ID', 'c8d5c75dd8b0402fbc2f8d4ed2164650'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019dc260-5a0e-7993-afd4-15f0f2f367fb'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arty/Documents/video_ros2/build/mqtt_bridge'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/arty/.config/Code/CachedData/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1782c65edbce2656839e3bb469ef7e44'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '12092'), ('CMAKE_PREFIX_PATH', '/home/arty/Documents/video_ros2/install')]), 'shell': False}
+[4.553190] (video_viewer_qt) JobProgress: {'identifier': 'video_viewer_qt', 'progress': 'cmake'}
+[4.554381] (video_viewer_qt) JobProgress: {'identifier': 'video_viewer_qt', 'progress': 'build'}
+[4.554854] (video_viewer_qt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arty/Documents/video_ros2/build/video_viewer_qt', '--', '-j16', '-l16'], 'cwd': '/home/arty/Documents/video_ros2/build/video_viewer_qt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/arty'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'arty'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/nls.messages.json","corruptMarkerFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409","_corruptedFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('ROS_PACKAGE_PATH', '/home/arty/Documents/video_ros2/install/share'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/arty/Documents/video_ros2/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arty'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/arty/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/arty/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-95bdfc12-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '967'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1293'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1782c65edbce2656839e3bb469ef7e44'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12092'), ('NVM_DIR', '/home/arty/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arty'), ('JOURNAL_STREAM', '8:18343'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('PKG_CONFIG_PATH', '/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig'), ('USERNAME', 'arty'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/arty/.codex/tmp/arg0/codex-arg0tlOlkw:/home/arty/.nvm/versions/node/v24.15.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/arty/.vscode/extensions/openai.chatgpt-26.422.30944-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:@/tmp/.ICE-unix/1293,unix/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:/tmp/.ICE-unix/1293'), ('INVOCATION_ID', 'c8d5c75dd8b0402fbc2f8d4ed2164650'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019dc260-5a0e-7993-afd4-15f0f2f367fb'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arty/Documents/video_ros2/build/video_viewer_qt'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/arty/.config/Code/CachedData/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1782c65edbce2656839e3bb469ef7e44'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '12092'), ('CMAKE_PREFIX_PATH', '/home/arty/Documents/video_ros2/install')]), 'shell': False}
+[4.608610] (mqtt_bridge) StdoutLine: {'line': b'[  5%] Automatic MOC for target qmqtt\n'}
+[4.612259] (-) TimerEvent: {}
+[4.614434] (video_viewer_qt) StdoutLine: {'line': b'[ 12%] Automatic MOC for target video_viewer_qt\n'}
+[4.642319] (mqtt_bridge) StdoutLine: {'line': b'[  5%] Built target qmqtt_autogen\n'}
+[4.684430] (mqtt_bridge) StdoutLine: {'line': b'[ 65%] Built target qmqtt\n'}
+[4.708866] (mqtt_bridge) StdoutLine: {'line': b'[ 70%] Automatic MOC for target mqtt_bridge_node\n'}
+[4.712366] (-) TimerEvent: {}
+[4.812586] (-) TimerEvent: {}
+[4.912910] (-) TimerEvent: {}
+[5.013209] (-) TimerEvent: {}
+[5.075722] (video_viewer_qt) StdoutLine: {'line': b'[ 12%] Built target video_viewer_qt_autogen\n'}
+[5.107381] (video_viewer_qt) StdoutLine: {'line': b'[ 25%] Automatic RCC for src/qml.qrc\n'}
+[5.113488] (-) TimerEvent: {}
+[5.169858] (video_viewer_qt) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target video_viewer_qt\n'}
+[5.207025] (video_viewer_qt) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/video_viewer_qt.dir/src/viewer_backend.cpp.o\n'}
+[5.207584] (video_viewer_qt) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/video_viewer_qt.dir/video_viewer_qt_autogen/mocs_compilation.cpp.o\n'}
+[5.207742] (video_viewer_qt) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/video_viewer_qt.dir/src/main.cpp.o\n'}
+[5.213681] (-) TimerEvent: {}
+[5.216467] (video_viewer_qt) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/video_viewer_qt.dir/src/viewer_image_provider.cpp.o\n'}
+[5.218724] (video_viewer_qt) StdoutLine: {'line': b'[ 87%] Building CXX object CMakeFiles/video_viewer_qt.dir/video_viewer_qt_autogen/UVLADIE3JM/qrc_qml.cpp.o\n'}
+[5.314100] (-) TimerEvent: {}
+[5.415779] (-) TimerEvent: {}
+[5.516198] (-) TimerEvent: {}
+[5.520060] (mqtt_bridge) StdoutLine: {'line': b'[ 75%] Built target mqtt_bridge_node_autogen\n'}
+[5.580193] (mqtt_bridge) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o\n'}
+[5.616449] (-) TimerEvent: {}
+[5.717123] (-) TimerEvent: {}
+[5.817476] (-) TimerEvent: {}
+[5.917835] (-) TimerEvent: {}
+[6.018787] (-) TimerEvent: {}
+[6.119575] (-) TimerEvent: {}
+[6.222740] (-) TimerEvent: {}
+[6.323235] (-) TimerEvent: {}
+[6.423696] (-) TimerEvent: {}
+[6.524037] (-) TimerEvent: {}
+[6.624343] (-) TimerEvent: {}
+[6.724873] (-) TimerEvent: {}
+[6.825489] (-) TimerEvent: {}
+[6.926141] (-) TimerEvent: {}
+[7.026440] (-) TimerEvent: {}
+[7.126697] (-) TimerEvent: {}
+[7.227042] (-) TimerEvent: {}
+[7.327695] (-) TimerEvent: {}
+[7.429187] (-) TimerEvent: {}
+[7.529537] (-) TimerEvent: {}
+[7.629817] (-) TimerEvent: {}
+[7.730081] (-) TimerEvent: {}
+[7.830321] (-) TimerEvent: {}
+[7.930731] (-) TimerEvent: {}
+[8.031075] (-) TimerEvent: {}
+[8.131468] (-) TimerEvent: {}
+[8.231756] (-) TimerEvent: {}
+[8.332147] (-) TimerEvent: {}
+[8.432773] (-) TimerEvent: {}
+[8.534737] (-) TimerEvent: {}
+[8.635197] (-) TimerEvent: {}
+[8.735948] (-) TimerEvent: {}
+[8.836718] (-) TimerEvent: {}
+[8.937094] (-) TimerEvent: {}
+[9.038285] (-) TimerEvent: {}
+[9.141047] (-) TimerEvent: {}
+[9.241393] (-) TimerEvent: {}
+[9.342899] (-) TimerEvent: {}
+[9.443412] (-) TimerEvent: {}
+[9.543878] (-) TimerEvent: {}
+[9.645864] (-) TimerEvent: {}
+[9.747855] (-) TimerEvent: {}
+[9.848238] (-) TimerEvent: {}
+[9.948792] (-) TimerEvent: {}
+[10.049313] (-) TimerEvent: {}
+[10.149818] (-) TimerEvent: {}
+[10.250264] (-) TimerEvent: {}
+[10.350967] (-) TimerEvent: {}
+[10.451407] (-) TimerEvent: {}
+[10.552051] (-) TimerEvent: {}
+[10.653434] (-) TimerEvent: {}
+[10.754067] (-) TimerEvent: {}
+[10.854364] (-) TimerEvent: {}
+[10.954709] (-) TimerEvent: {}
+[11.054968] (-) TimerEvent: {}
+[11.155285] (-) TimerEvent: {}
+[11.255673] (-) TimerEvent: {}
+[11.355962] (-) TimerEvent: {}
+[11.456373] (-) TimerEvent: {}
+[11.557774] (-) TimerEvent: {}
+[11.658320] (-) TimerEvent: {}
+[11.758898] (-) TimerEvent: {}
+[11.859505] (-) TimerEvent: {}
+[11.959930] (-) TimerEvent: {}
+[12.060284] (-) TimerEvent: {}
+[12.160579] (-) TimerEvent: {}
+[12.261083] (-) TimerEvent: {}
+[12.361374] (-) TimerEvent: {}
+[12.461790] (-) TimerEvent: {}
+[12.562066] (-) TimerEvent: {}
+[12.662470] (-) TimerEvent: {}
+[12.762943] (-) TimerEvent: {}
+[12.863403] (-) TimerEvent: {}
+[12.963914] (-) TimerEvent: {}
+[13.064476] (-) TimerEvent: {}
+[13.165054] (-) TimerEvent: {}
+[13.265287] (-) TimerEvent: {}
+[13.365693] (-) TimerEvent: {}
+[13.466288] (-) TimerEvent: {}
+[13.566880] (-) TimerEvent: {}
+[13.667303] (-) TimerEvent: {}
+[13.767839] (-) TimerEvent: {}
+[13.868375] (-) TimerEvent: {}
+[13.968807] (-) TimerEvent: {}
+[14.069083] (-) TimerEvent: {}
+[14.169375] (-) TimerEvent: {}
+[14.269730] (-) TimerEvent: {}
+[14.370345] (-) TimerEvent: {}
+[14.470898] (-) TimerEvent: {}
+[14.571612] (-) TimerEvent: {}
+[14.672380] (-) TimerEvent: {}
+[14.773022] (-) TimerEvent: {}
+[14.873641] (-) TimerEvent: {}
+[14.974095] (-) TimerEvent: {}
+[15.074479] (-) TimerEvent: {}
+[15.175214] (-) TimerEvent: {}
+[15.275815] (-) TimerEvent: {}
+[15.376514] (-) TimerEvent: {}
+[15.477081] (-) TimerEvent: {}
+[15.577457] (-) TimerEvent: {}
+[15.677860] (-) TimerEvent: {}
+[15.778351] (-) TimerEvent: {}
+[15.878722] (-) TimerEvent: {}
+[15.979225] (-) TimerEvent: {}
+[16.079679] (-) TimerEvent: {}
+[16.180150] (-) TimerEvent: {}
+[16.281060] (-) TimerEvent: {}
+[16.381698] (-) TimerEvent: {}
+[16.482257] (-) TimerEvent: {}
+[16.582688] (-) TimerEvent: {}
+[16.682892] (-) TimerEvent: {}
+[16.783265] (-) TimerEvent: {}
+[16.883825] (-) TimerEvent: {}
+[16.984172] (-) TimerEvent: {}
+[17.084607] (-) TimerEvent: {}
+[17.185302] (-) TimerEvent: {}
+[17.285784] (-) TimerEvent: {}
+[17.386672] (-) TimerEvent: {}
+[17.487011] (-) TimerEvent: {}
+[17.589197] (-) TimerEvent: {}
+[17.689641] (-) TimerEvent: {}
+[17.790022] (-) TimerEvent: {}
+[17.890540] (-) TimerEvent: {}
+[17.991056] (-) TimerEvent: {}
+[18.091709] (-) TimerEvent: {}
+[18.192546] (-) TimerEvent: {}
+[18.293046] (-) TimerEvent: {}
+[18.393495] (-) TimerEvent: {}
+[18.493779] (-) TimerEvent: {}
+[18.593993] (-) TimerEvent: {}
+[18.694317] (-) TimerEvent: {}
+[18.794763] (-) TimerEvent: {}
+[18.895136] (-) TimerEvent: {}
+[18.995366] (-) TimerEvent: {}
+[19.095577] (-) TimerEvent: {}
+[19.195927] (-) TimerEvent: {}
+[19.296274] (-) TimerEvent: {}
+[19.396667] (-) TimerEvent: {}
+[19.497242] (-) TimerEvent: {}
+[19.597815] (-) TimerEvent: {}
+[19.698123] (-) TimerEvent: {}
+[19.798540] (-) TimerEvent: {}
+[19.898980] (-) TimerEvent: {}
+[19.999423] (-) TimerEvent: {}
+[20.014526] (mqtt_bridge) StdoutLine: {'line': b'[ 85%] Linking CXX executable mqtt_bridge_node\n'}
+[20.099814] (-) TimerEvent: {}
+[20.200438] (-) TimerEvent: {}
+[20.300734] (-) TimerEvent: {}
+[20.401067] (-) TimerEvent: {}
+[20.501659] (-) TimerEvent: {}
+[20.602354] (-) TimerEvent: {}
+[20.703293] (-) TimerEvent: {}
+[20.803962] (-) TimerEvent: {}
+[20.904758] (-) TimerEvent: {}
+[21.005307] (-) TimerEvent: {}
+[21.105795] (-) TimerEvent: {}
+[21.206209] (-) TimerEvent: {}
+[21.294697] (mqtt_bridge) StdoutLine: {'line': b'[100%] Built target mqtt_bridge_node\n'}
+[21.306399] (-) TimerEvent: {}
+[21.314643] (mqtt_bridge) CommandEnded: {'returncode': 0}
+[21.316133] (mqtt_bridge) JobProgress: {'identifier': 'mqtt_bridge', 'progress': 'install'}
+[21.316844] (mqtt_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arty/Documents/video_ros2/build/mqtt_bridge'], 'cwd': '/home/arty/Documents/video_ros2/build/mqtt_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/arty'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'arty'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/nls.messages.json","corruptMarkerFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409","_corruptedFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('ROS_PACKAGE_PATH', '/home/arty/Documents/video_ros2/install/share'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/arty/Documents/video_ros2/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arty'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/arty/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/arty/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-95bdfc12-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '967'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1293'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1782c65edbce2656839e3bb469ef7e44'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12092'), ('NVM_DIR', '/home/arty/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arty'), ('JOURNAL_STREAM', '8:18343'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('PKG_CONFIG_PATH', '/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig'), ('USERNAME', 'arty'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/arty/.codex/tmp/arg0/codex-arg0tlOlkw:/home/arty/.nvm/versions/node/v24.15.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/arty/.vscode/extensions/openai.chatgpt-26.422.30944-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:@/tmp/.ICE-unix/1293,unix/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:/tmp/.ICE-unix/1293'), ('INVOCATION_ID', 'c8d5c75dd8b0402fbc2f8d4ed2164650'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019dc260-5a0e-7993-afd4-15f0f2f367fb'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arty/Documents/video_ros2/build/mqtt_bridge'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/arty/.config/Code/CachedData/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1782c65edbce2656839e3bb469ef7e44'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '12092'), ('CMAKE_PREFIX_PATH', '/home/arty/Documents/video_ros2/install')]), 'shell': False}
+[21.331954] (mqtt_bridge) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[21.333397] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so.1.0.5\n'}
+[21.333950] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so.1\n'}
+[21.334068] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so\n'}
+[21.334189] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttTargets.cmake\n'}
+[21.334313] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttTargets-release.cmake\n'}
+[21.334432] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_global.h\n'}
+[21.334527] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt.h\n'}
+[21.334644] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_client.h\n'}
+[21.334826] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_frame.h\n'}
+[21.334913] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_message.h\n'}
+[21.335006] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_routesubscription.h\n'}
+[21.335146] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_routedmessage.h\n'}
+[21.335415] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_router.h\n'}
+[21.335576] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_networkinterface.h\n'}
+[21.337164] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_socketinterface.h\n'}
+[21.339193] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_timerinterface.h\n'}
+[21.339739] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqtt.cmake\n'}
+[21.339872] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqtt-release.cmake\n'}
+[21.339983] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttConfig.cmake\n'}
+[21.340086] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttConfigVersion.cmake\n'}
+[21.340218] (mqtt_bridge) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/lib/mqtt_bridge/mqtt_bridge_node\n'}
+[21.340313] (mqtt_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/mqtt_bridge/mqtt_bridge_node" to ""\n'}
+[21.340417] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/mqtt_bridge\n'}
+[21.340547] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/mqtt_bridge\n'}
+[21.340662] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/ament_prefix_path.sh\n'}
+[21.340770] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/ament_prefix_path.dsv\n'}
+[21.341327] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/path.sh\n'}
+[21.341585] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/path.dsv\n'}
+[21.342157] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.bash\n'}
+[21.342357] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.sh\n'}
+[21.342461] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.zsh\n'}
+[21.342572] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.dsv\n'}
+[21.342803] (mqtt_bridge) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/package.dsv\n'}
+[21.343012] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/mqtt_bridge\n'}
+[21.343158] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/cmake/mqtt_bridgeConfig.cmake\n'}
+[21.344296] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/cmake/mqtt_bridgeConfig-version.cmake\n'}
+[21.344459] (mqtt_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/package.xml\n'}
+[21.344819] (mqtt_bridge) CommandEnded: {'returncode': 0}
+[21.362477] (mqtt_bridge) JobEnded: {'identifier': 'mqtt_bridge', 'rc': 0}
+[21.406529] (-) TimerEvent: {}
+[21.506806] (-) TimerEvent: {}
+[21.607127] (-) TimerEvent: {}
+[21.707761] (-) TimerEvent: {}
+[21.808216] (-) TimerEvent: {}
+[21.908688] (-) TimerEvent: {}
+[22.009076] (-) TimerEvent: {}
+[22.109348] (-) TimerEvent: {}
+[22.209831] (-) TimerEvent: {}
+[22.310185] (-) TimerEvent: {}
+[22.410772] (-) TimerEvent: {}
+[22.511004] (-) TimerEvent: {}
+[22.611207] (-) TimerEvent: {}
+[22.711442] (-) TimerEvent: {}
+[22.811757] (-) TimerEvent: {}
+[22.912182] (-) TimerEvent: {}
+[23.012727] (-) TimerEvent: {}
+[23.113185] (-) TimerEvent: {}
+[23.213584] (-) TimerEvent: {}
+[23.314268] (-) TimerEvent: {}
+[23.414646] (-) TimerEvent: {}
+[23.514870] (-) TimerEvent: {}
+[23.615286] (-) TimerEvent: {}
+[23.715875] (-) TimerEvent: {}
+[23.816273] (-) TimerEvent: {}
+[23.916787] (-) TimerEvent: {}
+[24.017248] (-) TimerEvent: {}
+[24.117670] (-) TimerEvent: {}
+[24.218314] (-) TimerEvent: {}
+[24.318842] (-) TimerEvent: {}
+[24.419636] (-) TimerEvent: {}
+[24.520288] (-) TimerEvent: {}
+[24.620970] (-) TimerEvent: {}
+[24.721589] (-) TimerEvent: {}
+[24.822298] (-) TimerEvent: {}
+[24.923132] (-) TimerEvent: {}
+[25.024101] (-) TimerEvent: {}
+[25.124640] (-) TimerEvent: {}
+[25.225130] (-) TimerEvent: {}
+[25.325885] (-) TimerEvent: {}
+[25.426304] (-) TimerEvent: {}
+[25.526509] (-) TimerEvent: {}
+[25.626744] (-) TimerEvent: {}
+[25.726979] (-) TimerEvent: {}
+[25.827215] (-) TimerEvent: {}
+[25.927453] (-) TimerEvent: {}
+[26.027752] (-) TimerEvent: {}
+[26.128036] (-) TimerEvent: {}
+[26.228268] (-) TimerEvent: {}
+[26.290873] (video_viewer_qt) StdoutLine: {'line': b'[100%] Linking CXX executable video_viewer_qt\n'}
+[26.328383] (-) TimerEvent: {}
+[26.428601] (-) TimerEvent: {}
+[26.528865] (-) TimerEvent: {}
+[26.629164] (-) TimerEvent: {}
+[26.729487] (-) TimerEvent: {}
+[26.829847] (-) TimerEvent: {}
+[26.930160] (-) TimerEvent: {}
+[27.030544] (-) TimerEvent: {}
+[27.130866] (-) TimerEvent: {}
+[27.231169] (-) TimerEvent: {}
+[27.331531] (-) TimerEvent: {}
+[27.431831] (-) TimerEvent: {}
+[27.532181] (-) TimerEvent: {}
+[27.599725] (video_viewer_qt) StdoutLine: {'line': b'[100%] Built target video_viewer_qt\n'}
+[27.609831] (video_viewer_qt) CommandEnded: {'returncode': 0}
+[27.611153] (video_viewer_qt) JobProgress: {'identifier': 'video_viewer_qt', 'progress': 'install'}
+[27.611353] (video_viewer_qt) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arty/Documents/video_ros2/build/video_viewer_qt'], 'cwd': '/home/arty/Documents/video_ros2/build/video_viewer_qt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/arty'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'arty'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/nls.messages.json","corruptMarkerFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409","_corruptedFile":"/home/arty/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('ROS_PACKAGE_PATH', '/home/arty/Documents/video_ros2/install/share'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/arty/Documents/video_ros2/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arty'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/arty/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/arty/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-95bdfc12-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '967'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1293'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1782c65edbce2656839e3bb469ef7e44'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12092'), ('NVM_DIR', '/home/arty/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arty'), ('JOURNAL_STREAM', '8:18343'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('PKG_CONFIG_PATH', '/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig'), ('USERNAME', 'arty'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/arty/.codex/tmp/arg0/codex-arg0tlOlkw:/home/arty/.nvm/versions/node/v24.15.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/arty/.vscode/extensions/openai.chatgpt-26.422.30944-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:@/tmp/.ICE-unix/1293,unix/arty-HP-ProBook-450-15-6-inch-G10-Notebook-PC:/tmp/.ICE-unix/1293'), ('INVOCATION_ID', 'c8d5c75dd8b0402fbc2f8d4ed2164650'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019dc260-5a0e-7993-afd4-15f0f2f367fb'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arty/Documents/video_ros2/build/video_viewer_qt'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/arty/.config/Code/CachedData/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1782c65edbce2656839e3bb469ef7e44'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '12092'), ('CMAKE_PREFIX_PATH', '/home/arty/Documents/video_ros2/install')]), 'shell': False}
+[27.622029] (video_viewer_qt) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[27.622268] (video_viewer_qt) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/lib/video_viewer_qt/video_viewer_qt\n'}
+[27.624438] (video_viewer_qt) StdoutLine: {'line': b'-- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/video_viewer_qt/video_viewer_qt" to ""\n'}
+[27.625536] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/video_viewer_qt\n'}
+[27.625662] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/video_viewer_qt\n'}
+[27.625711] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/ament_prefix_path.sh\n'}
+[27.625743] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/ament_prefix_path.dsv\n'}
+[27.625772] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/path.sh\n'}
+[27.625854] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/environment/path.dsv\n'}
+[27.625883] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.bash\n'}
+[27.625912] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.sh\n'}
+[27.625940] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.zsh\n'}
+[27.625967] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/local_setup.dsv\n'}
+[27.626006] (video_viewer_qt) StdoutLine: {'line': b'-- Installing: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.dsv\n'}
+[27.626035] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/video_viewer_qt\n'}
+[27.626065] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/cmake/video_viewer_qtConfig.cmake\n'}
+[27.626095] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/cmake/video_viewer_qtConfig-version.cmake\n'}
+[27.626123] (video_viewer_qt) StdoutLine: {'line': b'-- Up-to-date: /home/arty/Documents/video_ros2/install/share/video_viewer_qt/package.xml\n'}
+[27.626153] (video_viewer_qt) CommandEnded: {'returncode': 0}
+[27.632288] (-) TimerEvent: {}
+[27.635637] (video_viewer_qt) JobEnded: {'identifier': 'video_viewer_qt', 'rc': 0}
+[27.636073] (-) EventReactorShutdown: {}

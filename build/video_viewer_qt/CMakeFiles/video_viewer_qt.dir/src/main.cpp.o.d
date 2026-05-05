@@ -1,9 +1,8 @@
 CMakeFiles/video_viewer_qt.dir/src/main.cpp.o: \
  /home/arty/Documents/video_ros2/src/video_viewer_qt/src/main.cpp \
  /usr/include/stdc-predef.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QGuiApplication \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
  /usr/include/c++/11/type_traits \
@@ -157,7 +156,6 @@ CMakeFiles/video_viewer_qt.dir/src/main.cpp.o: \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qchar.h \
@@ -306,28 +304,45 @@ CMakeFiles/video_viewer_qt.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer_impl.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication_platform.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qcursor.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputmethod.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/QQmlApplicationEngine \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlapplicationengine.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlengine.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsengine.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsvalue.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qtqmlglobal.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qtqml-config.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkglobal.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetwork-config.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsmanagedvalue.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsprimitivevalue.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qjsnumbercoercion.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmldebug.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qqml.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlprivate.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlparserstatus.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmllist.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QMetaType \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetatype.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlpropertyvaluesource.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qversionnumber.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetaobject.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlregistration.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlerror.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlabstracturlinterceptor.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/QQmlContext \
+ /usr/include/x86_64-linux-gnu/qt6/QtQml/qqmlcontext.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QUrl \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
@@ -743,7 +758,21 @@ CMakeFiles/video_viewer_qt.dir/src/main.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/arty/Documents/video_ros2/src/video_viewer_qt/include/video_viewer_qt/viewer_window.hpp \
+ /home/arty/Documents/video_ros2/src/video_viewer_qt/include/video_viewer_qt/viewer_backend.hpp \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
@@ -752,20 +781,16 @@ CMakeFiles/video_viewer_qt.dir/src/main.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h
+ /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/robot_login.hpp \
+ /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__struct.hpp \
+ /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__builder.hpp \
+ /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__traits.hpp \
+ /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__type_support.hpp \
+ /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/arty/Documents/video_ros2/src/video_viewer_qt/include/video_viewer_qt/viewer_image_provider.hpp \
+ /usr/include/x86_64-linux-gnu/qt6/QtQuick/QQuickImageProvider \
+ /usr/include/x86_64-linux-gnu/qt6/QtQuick/qquickimageprovider.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQuick/qtquickglobal.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtQuick/qtquick-config.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h

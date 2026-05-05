@@ -217,4 +217,7 @@ CMakeFiles/video_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gen
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_c/video_interfaces/msg/detail/encoded_frame__functions.h
+ /home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_c/video_interfaces/msg/detail/encoded_frame__functions.h \
+ /home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_c/video_interfaces/srv/detail/robot_login__type_support.h \
+ /home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_c/video_interfaces/srv/detail/robot_login__struct.h \
+ /home/arty/Documents/video_ros2/build/video_interfaces/rosidl_generator_c/video_interfaces/srv/detail/robot_login__functions.h

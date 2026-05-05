@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_rs/video_interfaces/rust/src/lib.rs"
   "../rosidl_generator_rs/video_interfaces/rust/src/msg.rs"
   "../rosidl_generator_rs/video_interfaces/rust/src/msg/rmw.rs"
+  "../rosidl_generator_rs/video_interfaces/rust/src/srv.rs"
+  "../rosidl_generator_rs/video_interfaces/rust/src/srv/rmw.rs"
   "CMakeFiles/video_interfaces__rs"
 )
 

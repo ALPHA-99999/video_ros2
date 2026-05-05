@@ -1,0 +1,51 @@
+[0.011s] Invoking command in '/home/arty/Documents/video_ros2/build/mqtt_bridge': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/mqtt_bridge -- -j16 -l16
+[0.077s] [  5%] Automatic MOC for target qmqtt
+[0.108s] [  5%] Built target qmqtt_autogen
+[0.144s] [ 65%] Built target qmqtt
+[0.163s] [ 70%] Automatic MOC for target mqtt_bridge_node
+[0.662s] [ 75%] Built target mqtt_bridge_node_autogen
+[0.677s] Consolidate compiler generated dependencies of target mqtt_bridge_node
+[0.692s] [ 80%] Building CXX object CMakeFiles/mqtt_bridge_node.dir/src/mqtt_bridge_node.cpp.o
+[7.319s] [ 85%] Linking CXX executable mqtt_bridge_node
+[7.766s] [100%] Built target mqtt_bridge_node
+[7.778s] Invoked command in '/home/arty/Documents/video_ros2/build/mqtt_bridge' returned '0': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/mqtt_bridge -- -j16 -l16
+[7.779s] Invoking command in '/home/arty/Documents/video_ros2/build/mqtt_bridge': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/mqtt_bridge
+[7.788s] -- Install configuration: "Release"
+[7.788s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so.1.0.5
+[7.788s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so.1
+[7.788s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/libqmqtt.so
+[7.788s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttTargets.cmake
+[7.788s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttTargets-release.cmake
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_global.h
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt.h
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_client.h
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_frame.h
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_message.h
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_routesubscription.h
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_routedmessage.h
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_router.h
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_networkinterface.h
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_socketinterface.h
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/include/qmqtt_timerinterface.h
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqtt.cmake
+[7.789s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqtt-release.cmake
+[7.790s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttConfig.cmake
+[7.790s] -- Up-to-date: /home/arty/Documents/video_ros2/install/lib/cmake/qmqtt/qmqttConfigVersion.cmake
+[7.790s] -- Installing: /home/arty/Documents/video_ros2/install/lib/mqtt_bridge/mqtt_bridge_node
+[7.790s] -- Set runtime path of "/home/arty/Documents/video_ros2/install/lib/mqtt_bridge/mqtt_bridge_node" to ""
+[7.790s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/package_run_dependencies/mqtt_bridge
+[7.790s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/parent_prefix_path/mqtt_bridge
+[7.791s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/ament_prefix_path.sh
+[7.791s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/ament_prefix_path.dsv
+[7.791s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/path.sh
+[7.792s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/environment/path.dsv
+[7.792s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.bash
+[7.792s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.sh
+[7.792s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.zsh
+[7.792s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/local_setup.dsv
+[7.792s] -- Installing: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/package.dsv
+[7.793s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/ament_index/resource_index/packages/mqtt_bridge
+[7.793s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/cmake/mqtt_bridgeConfig.cmake
+[7.793s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/cmake/mqtt_bridgeConfig-version.cmake
+[7.793s] -- Up-to-date: /home/arty/Documents/video_ros2/install/share/mqtt_bridge/package.xml
+[7.793s] Invoked command in '/home/arty/Documents/video_ros2/build/mqtt_bridge' returned '0': CMAKE_PREFIX_PATH=/home/arty/Documents/video_ros2/install LD_LIBRARY_PATH=/home/arty/Documents/video_ros2/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/arty/Documents/video_ros2/install/lib/x86_64-linux-gnu/pkgconfig:/home/arty/Documents/video_ros2/install/lib/pkgconfig PYTHONPATH=/home/arty/Documents/video_ros2/install/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/arty/Documents/video_ros2/install/share /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/mqtt_bridge

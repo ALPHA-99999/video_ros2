@@ -10,4 +10,5 @@
 
   <depend>rclcpp</depend>
   <depend>sensor_msgs</depend>
+  <depend>video_interfaces</depend>
 </package>

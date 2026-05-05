@@ -1,0 +1,4 @@
+Invoking command in '/home/arty/Documents/video_ros2/build/video_interfaces': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_interfaces -- -j16 -l16
+Invoked command in '/home/arty/Documents/video_ros2/build/video_interfaces' returned '0': /usr/bin/cmake --build /home/arty/Documents/video_ros2/build/video_interfaces -- -j16 -l16
+Invoking command in '/home/arty/Documents/video_ros2/build/video_interfaces': /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_interfaces
+Invoked command in '/home/arty/Documents/video_ros2/build/video_interfaces' returned '0': /usr/bin/cmake --install /home/arty/Documents/video_ros2/build/video_interfaces

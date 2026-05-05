@@ -378,7 +378,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/video_interfaces/srv" TYPE FILE FILES "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_adapter/video_interfaces/srv/RobotLogin.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/video_interfaces/msg" TYPE FILE FILES "/home/arty/Documents/video_ros2/src/video_interfaces/msg/EncodedFrame.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/video_interfaces/srv" TYPE FILE FILES "/home/arty/Documents/video_ros2/src/video_interfaces/srv/RobotLogin.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/video_interfaces/srv" TYPE FILE FILES "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_cmake/srv/RobotLogin_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/video_interfaces/srv" TYPE FILE FILES "/home/arty/Documents/video_ros2/build/video_interfaces/rosidl_cmake/srv/RobotLogin_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

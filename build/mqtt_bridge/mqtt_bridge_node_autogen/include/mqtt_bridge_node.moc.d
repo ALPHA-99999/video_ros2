@@ -1,12 +1,12 @@
 /home/arty/Documents/video_ros2/build/mqtt_bridge/mqtt_bridge_node_autogen/include/mqtt_bridge_node.moc: /home/arty/Documents/video_ros2/src/mqtt_bridge/src/mqtt_bridge_node.cpp \
   /home/arty/Documents/video_ros2/build/mqtt_bridge/mqtt_bridge_node_autogen/moc_predefs.h \
   /home/arty/Documents/video_ros2/build/mqtt_bridge/command.pb.h \
-  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__builder.hpp \
-  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__struct.hpp \
-  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__traits.hpp \
-  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/detail/encoded_frame__type_support.hpp \
-  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/encoded_frame.hpp \
   /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__builder.hpp \
+  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__struct.hpp \
+  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__traits.hpp \
+  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/detail/robot_login__type_support.hpp \
+  /home/arty/Documents/video_ros2/install/include/video_interfaces/video_interfaces/srv/robot_login.hpp \
   /home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt.h \
   /home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_client.h \
   /home/arty/Documents/video_ros2/src/third_party_qmqtt/qmqtt/src/mqtt/qmqtt_global.h \
@@ -351,8 +351,6 @@
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp \
@@ -736,7 +734,7 @@
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QByteArray \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QCoreApplication \
-  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDateTime \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QEventLoop \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QFlags \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QMetaType \
